@@ -116,6 +116,10 @@ plugins:
           nav_translations: # note that all titles and subtitles in the navigation bar that need to be translated can be put here, but with no indentation
             ABOUT: 关于
             ESP32: ESP32
+            GET STARTED: 入门
+            HARDWARE: 硬件
+            ENVIRONMENT: 环境配置
+            TEMPLATE: 项目模板
 
 
 # # Hooks
@@ -246,8 +250,10 @@ nav:
       - "index.md"
   - ESP32: 
       - "ESP32/ESP32.md"
-
-
+  - GET STARTED:
+      - HARDWARE: "GET_STARTED/HARDWARE/hardware.md"
+      - ENVIRONMENT: "GET_STARTED/ENVIRONMENT/environment.md"
+      - TEMPLATE: "GET_STARTED/TEMPLATE/template.md"
     
 # if there are sub nodes under a node, then there should not be a link right after the node. All the stuff should be placed under the node.
 
