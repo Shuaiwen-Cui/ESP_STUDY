@@ -4,7 +4,7 @@
     在继续之前，强烈建议您阅读官方指南以设置开发环境。官方指南可以在[这里](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html)找到。
 
 !!! note
-    如需在 ESP32-S3 上使用 ESP-IDF，请安装以下软件：
+    如需在 ESP32 上使用 ESP-IDF，请安装以下软件：
 
     - 设置工具链，用于编译 ESP32 代码；
 
@@ -48,6 +48,9 @@
 </div>
 
 ## LINUX
+
+!!! tip
+    ESP-IDF 在 Linux 上比在 Windows 上快得多。建议使用 Linux 进行 ESP-IDF 开发。
 
 ### CLI 🎯
 
@@ -97,7 +100,7 @@ ESP-IDF 将下载至 `~/esp/esp-idf`。
 
 #### 第三步 - 设置工具
 
-除了 ESP-IDF 本身，还需要为支持 ESP32-S3 的项目安装 ESP-IDF 使用的各种工具，比如编译器、调试器、Python 包等。
+除了 ESP-IDF 本身，还需要为支持 ESP32 的项目安装 ESP-IDF 使用的各种工具，比如编译器、调试器、Python 包等。
 
 ```shell
 cd ~/esp/esp-idf
@@ -116,13 +119,21 @@ cd ~/esp/esp-idf
 
 如果需要经常运行 ESP-IDF，可以为执行 export.sh 创建一个别名，具体步骤如下：
 
-(1) 复制并粘贴以下命令到 shell 配置文件中（.profile、.bashrc、.zprofile 等）
+(1) 打开 shell 配置文件
+
+```shell
+nano ~/.bashrc
+```
+
+(2) 复制并粘贴以下命令到 shell 配置文件中
+
+```shell
 
 ```shell
 alias get_idf='. $HOME/esp/esp-idf/export.sh'
 ```
 
-(2) 通过重启终端窗口或运行 `source [path to profile]`，如 `source ~/.bashrc` 来刷新配置文件。
+(3) 通过重启终端窗口或运行 `source [path to profile]`，如 `source ~/.bashrc` 来刷新配置文件。
 
 现在可以在任何终端窗口中运行 `get_idf` 来设置或刷新 ESP-IDF 环境。
 
@@ -152,7 +163,7 @@ alias get_idf='. $HOME/esp/esp-idf/export.sh'
 
 ## 卸载ESP-IDF
 
-1. 删除 ESP-IDF 文件夹
+(1) 删除 ESP-IDF 文件夹
 
 首先，找到安装 ESP-IDF 的目录（通常在 `~/esp/esp-idf`）。你可以使用以下命令删除该目录：
 
@@ -160,7 +171,7 @@ alias get_idf='. $HOME/esp/esp-idf/export.sh'
 rm -rf ~/esp/esp-idf
 ```
 
-2. 删除工具链
+(2) 删除工具链
 
 ESP-IDF 的 install.sh 脚本会下载并安装一些工具链和依赖，通常位于 `~/.espressif` 目录。使用以下命令删除该目录：
 
@@ -168,14 +179,14 @@ ESP-IDF 的 install.sh 脚本会下载并安装一些工具链和依赖，通常
 rm -rf ~/.espressif
 ```
 
-3. 删除环境变量
+(3) 删除环境变量
 如果你在 shell 配置文件（例如 `~/.bashrc` 或 `~/.zshrc`）中添加了用于快速加载 ESP-IDF 环境变量的别名（如 `get_idf`），则需要编辑这些配置文件并删除该别名。可以使用如下命令打开并编辑文件
 
 ```shell
 nano ~/.bashrc
 ```
 
-4. 刷新配置文件
+(4) 刷新配置文件
 
 最后，运行以下命令以使更改生效：
 

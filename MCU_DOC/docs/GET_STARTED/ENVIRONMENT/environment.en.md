@@ -49,6 +49,9 @@
 
 ## LINUX
 
+!!! tip
+    ESP-IDF is much faster on Linux than on Windows. It is recommended to use Linux for ESP-IDF development.
+
 ### CLI 🎯
 
 !!! note
@@ -96,7 +99,7 @@ Visit the [ESP-IDF Version Overview](https://docs.espressif.com/projects/esp-idf
 
 #### Step 3 - Set Up the Toolchain
 
-Besides ESP-IDF itself, various tools used by ESP-IDF, such as compilers, debuggers, and Python packages, must also be installed to support ESP32-S3 projects.
+Besides ESP-IDF itself, various tools used by ESP-IDF, such as compilers, debuggers, and Python packages, must also be installed to support ESP32 projects.
 ```shell
 cd ~/esp/esp-idf
 ./install.sh all
@@ -113,13 +116,20 @@ Run the following command in the terminal where you need to use ESP-IDF:
 
 If you frequently use ESP-IDF, you can create an alias for running export.sh as follows:
 
-(1) Copy and paste the following command into your shell configuration file (e.g., .profile, .bashrc, .zprofile).
+(1) Open the shell configuration file
+
+```shell
+nano ~/.bashrc
+```
+
+(2) Copy and paste the following command into your shell configuration file.
+
 
 ```shell
 alias get_idf='. $HOME/esp/esp-idf/export.sh'
 ```
 
-(2) Refresh the configuration file by restarting the terminal or by running `source [path to profile]`, such as `source ~/.bashrc`.
+(3) Refresh the configuration file by restarting the terminal or by running `source [path to profile]`, such as `source ~/.bashrc`.
 
 You can now run `get_idf` in any terminal window to set up or refresh the ESP-IDF environment.
 
@@ -139,7 +149,7 @@ It is not recommended to add `export.sh` directly to the shell configuration fil
 
 ## Uninstalling ESP-IDF
 
-1. Delete the `esp` directory.
+(1) Delete the `esp` directory.
 
 First, navigate to the directory where you cloned the ESP-IDF repository and delete the `esp` directory, typically at `~/esp/esp-idf`.
 
@@ -147,7 +157,7 @@ First, navigate to the directory where you cloned the ESP-IDF repository and del
 rm -rf ~/esp/esp-idf
 ```
 
-2. Remove the toolchain.
+(2) Remove the toolchain.
 
 If you installed the toolchain using the `install.sh` script, typically in `~/.espressif`, you can remove it by running the following command:
 
@@ -155,7 +165,7 @@ If you installed the toolchain using the `install.sh` script, typically in `~/.e
 rm -rf ~/.espressif
 ```
 
-3. Remove the environment variables.
+(3) Remove the environment variables.
 
 If you added an alias to quickly load the ESP-IDF environment variables in your shell configuration file (e.g., `~/.bashrc` or `~/.zshrc`), you need to edit these configuration files and remove the alias. You can open and edit the file using the following command:
 
@@ -163,7 +173,7 @@ If you added an alias to quickly load the ESP-IDF environment variables in your 
 nano ~/.bashrc
 ```
 
-4. Refresh the configuration file.
+(4) Refresh the configuration file.
 
 After removing the alias, refresh the configuration file by running the following command:
 
