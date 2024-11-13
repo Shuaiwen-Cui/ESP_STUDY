@@ -136,3 +136,37 @@ It is not recommended to add `export.sh` directly to the shell configuration fil
     [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=Hj3okDU-CIY&list=PLOzvoM7_Knrc9MKih2gNIMwZhGBfIKQb7&index=4" target="_blank"> Portal </a>](#)
 
 </div>
+
+## Uninstalling ESP-IDF
+
+1. Delete the `esp` directory.
+
+First, navigate to the directory where you cloned the ESP-IDF repository and delete the `esp` directory, typically at `~/esp/esp-idf`.
+
+```shell
+rm -rf ~/esp/esp-idf
+```
+
+2. Remove the toolchain.
+
+If you installed the toolchain using the `install.sh` script, typically in `~/.espressif`, you can remove it by running the following command:
+
+```shell
+rm -rf ~/.espressif
+```
+
+3. Remove the environment variables.
+
+If you added an alias to quickly load the ESP-IDF environment variables in your shell configuration file (e.g., `~/.bashrc` or `~/.zshrc`), you need to edit these configuration files and remove the alias. You can open and edit the file using the following command:
+
+```shell
+nano ~/.bashrc
+```
+
+4. Refresh the configuration file.
+
+After removing the alias, refresh the configuration file by running the following command:
+
+```shell
+source ~/.bashrc
+```

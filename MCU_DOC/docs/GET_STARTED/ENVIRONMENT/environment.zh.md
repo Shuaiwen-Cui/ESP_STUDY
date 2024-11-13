@@ -149,3 +149,36 @@ alias get_idf='. $HOME/esp/esp-idf/export.sh'
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1V24y1T75n/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
 
 </div>
+
+## 卸载ESP-IDF
+
+1. 删除 ESP-IDF 文件夹
+
+首先，找到安装 ESP-IDF 的目录（通常在 `~/esp/esp-idf`）。你可以使用以下命令删除该目录：
+
+```shell
+rm -rf ~/esp/esp-idf
+```
+
+2. 删除工具链
+
+ESP-IDF 的 install.sh 脚本会下载并安装一些工具链和依赖，通常位于 `~/.espressif` 目录。使用以下命令删除该目录：
+
+```shell
+rm -rf ~/.espressif
+```
+
+3. 删除环境变量
+如果你在 shell 配置文件（例如 `~/.bashrc` 或 `~/.zshrc`）中添加了用于快速加载 ESP-IDF 环境变量的别名（如 `get_idf`），则需要编辑这些配置文件并删除该别名。可以使用如下命令打开并编辑文件
+
+```shell
+nano ~/.bashrc
+```
+
+4. 刷新配置文件
+
+最后，运行以下命令以使更改生效：
+
+```shell
+source ~/.bashrc
+```
