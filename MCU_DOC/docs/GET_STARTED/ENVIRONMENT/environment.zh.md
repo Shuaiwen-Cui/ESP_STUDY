@@ -128,8 +128,6 @@ nano ~/.bashrc
 (2) 复制并粘贴以下命令到 shell 配置文件中
 
 ```shell
-
-```shell
 alias get_idf='. $HOME/esp/esp-idf/export.sh'
 ```
 
