@@ -349,3 +349,154 @@ BaseType_t *pxHigherPriorityTaskWoken); // High priority task wake-up flag
 - `xQueue`: Queue handle.
 - `pvItemToQueue`: Data pointer to be sent to the queue.
 - `pxHigherPriorityTaskWoken`: High priority task wake-up flag. If a high priority task is woken up when sending data, this parameter is set to `pdTRUE`.
+
+## Semaphore
+
+### xSemaphoreCreateBinary
+
+> Function prototype
+
+```c
+SemaphoreHandle_t xSemaphoreCreateBinary(void);
+
+```
+
+> Function introduction
+
+`xSemaphoreCreateBinary` is a function used to create a binary semaphore. A binary semaphore is a semaphore with only two states, available and unavailable.
+
+> Return value
+
+- Semaphore handle: semaphore creation is successful.
+
+- `NULL`: semaphore creation failed.
+
+### xSemaphoreCreateCounting
+
+> Function prototype
+
+```c
+SemaphoreHandle_t xSemaphoreCreateCounting(const UBaseType_t uxMaxCount, // Maximum count value
+const UBaseType_t uxInitialCount); // Initial count value
+
+```
+
+> Function introduction
+
+`xSemaphoreCreateCounting` is a function used to create a counting semaphore. A counting semaphore is a semaphore that can store multiple count values.
+
+> Parameters
+
+- `uxMaxCount`: maximum count value.
+
+- `uxInitialCount`: initial count value.
+
+> Return value
+
+- Semaphore handle: semaphore creation is successful.
+
+- `NULL`: semaphore creation fails.
+
+### xSemaphoreCreateMutex
+
+> Function prototype
+
+```c
+SemaphoreHandle_t xSemaphoreCreateMutex(void);
+
+```
+
+> Function introduction
+
+`xSemaphoreCreateMutex` is a function used to create a mutex semaphore. A mutex semaphore is a semaphore used to implement mutually exclusive access and is used to protect shared resources.
+
+> Return value
+
+- Semaphore handle: semaphore creation is successful.
+
+- `NULL`: semaphore creation fails.
+
+!!! info "Mutex"
+A mutex is a synchronization mechanism used to implement mutually exclusive access. In FreeRTOS, mutexes are implemented by mutex semaphores. Mutexes ensure that only one task can access a shared resource at any time. Unlike binary semaphores, mutexes implement priority inheritance and priority inversion mechanisms to ensure that tasks can access shared resources in order of priority.
+
+!!! info "Priority Flip"
+Priority flip refers to the temporary occupation of resources by low-priority tasks, which causes high-priority tasks to be blocked or even further delayed by medium-priority tasks. Ultimately, the execution of high-priority tasks is indirectly delayed by low-priority tasks, a phenomenon known as priority flip.
+
+A typical priority flip scenario is as follows:
+Suppose there are three tasks, with priorities from high to low: Task A, Task B, and Task C, and they share a resource (such as a mutex).
+Step 1: Low-priority Task C acquires the resource (lock) and is using it.
+Step 2: Before Task C releases the resource, high-priority Task A starts running and tries to access the same resource. But because the resource is already occupied by Task C, Task A is blocked, waiting for Task C to release the resource.
+Step 3: At this time, Task B, which has a priority between the two, starts running, and because its priority is higher than Task C, Task B will preempt the execution of Task C.
+Result: Due to the execution of Task B, the progress of Task C is delayed, causing Task A to be delayed as well. Even though Task A has the highest priority, it cannot be executed immediately because the medium-priority Task B indirectly blocks its execution.
+This situation is called priority flipping, because the execution of the low-priority task Task C blocks the execution of the high-priority task Task A, and the intervention of Task B makes the flipping effect more serious.
+
+Priority flipping can cause high-priority tasks of real-time systems to fail to complete on time, resulting in system performance degradation or instability. In real-time applications (such as control systems or communication systems), priority flipping can have serious consequences.
+
+FreeRTOS and many other RTOS use priority inheritance to solve the priority flipping problem. The principle of priority inheritance mechanism is as follows:
+When a low-priority task holds a resource and blocks a high-priority task, the low-priority task inherits the priority of the high-priority task until the resource is released.
+In the above example, after Task C blocks the high-priority Task A, it is temporarily promoted to the priority of Task A.
+In this way, Task C can continue to run before Task B and release resources as soon as possible, so that Task A can obtain resources and execute in time.
+Once Task C releases resources, its priority will be restored to the original level.
+
+### xSemaphoreTake
+
+> Function prototype
+
+```c
+BaseType_t xSemaphoreTake(SemaphoreHandle_t xSemaphore, // semaphore handle
+TickType_t xTicksToWait); // waiting time
+```
+
+> Function introduction
+
+`xSemaphoreTake` is a function used to obtain a semaphore. After calling the `xSemaphoreTake` function, the task will try to acquire the semaphore.
+
+> Parameters
+
+- `xSemaphore`: semaphore handle.
+
+- `xTicksToWait`: waiting time, that is, the waiting time when the semaphore is not available. If the semaphore is not available, the task will wait for the semaphore to be available within the waiting time. If the waiting time is 0, the task will return immediately.
+
+> Return value
+
+- `pdPASS`: Successfully acquired the semaphore.
+
+- `pdFAIL`: Failed to acquire the semaphore.
+
+### xSemaphoreGive
+
+> Function prototype
+
+```c
+BaseType_t xSemaphoreGive(SemaphoreHandle_t xSemaphore); // Semaphore handle
+```
+
+> Function introduction
+
+`xSemaphoreGive` is a function used to release a semaphore. After calling the `xSemaphoreGive` function, the semaphore will be released.
+
+> Parameters
+
+- `xSemaphore`: semaphore handle.
+
+> Return value
+
+- `pdPASS`: Release semaphore successfully.
+
+- `pdFAIL`: Release semaphore failed.
+
+### xSemaphoreDelete
+
+> Function prototype
+
+```c
+void vSemaphoreDelete(SemaphoreHandle_t xSemaphore); // semaphore handle
+```
+
+> Function introduction
+
+`vSemaphoreDelete` is a function used to delete a semaphore. After calling the `vSemaphoreDelete` function, the semaphore will be deleted.
+
+> Parameters
+
+- `xSemaphore`: semaphore handle.

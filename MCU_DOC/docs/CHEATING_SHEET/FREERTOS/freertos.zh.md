@@ -436,6 +436,61 @@ SemaphoreHandle_t xSemaphoreCreateMutex(void);
 
 ### xSemaphoreTake
 
+> 函数原型
+
+```c
+BaseType_t xSemaphoreTake(SemaphoreHandle_t xSemaphore, // 信号量句柄
+                          TickType_t xTicksToWait); // 等待时间
+```
+
+> 函数简介
+
+`xSemaphoreTake` 是一个用于获取信号量的函数。调用 `xSemaphoreTake` 函数后，任务将尝试获取信号量。
+
+> 参数
+
+- `xSemaphore`：信号量句柄。
+- `xTicksToWait`：等待时间，即在信号量不可用时等待的时间。如果信号量不可用，任务将在等待时间内等待信号量可用。如果等待时间为 0，则任务将立即返回。
+
+> 返回值
+
+- `pdPASS`：获取信号量成功。
+- `pdFAIL`：获取信号量失败。
+
 ### xSemaphoreGive
 
+> 函数原型
+
+```c
+BaseType_t xSemaphoreGive(SemaphoreHandle_t xSemaphore); // 信号量句柄
+```
+
+> 函数简介
+
+`xSemaphoreGive` 是一个用于释放信号量的函数。调用 `xSemaphoreGive` 函数后，信号量将被释放。
+
+> 参数
+
+- `xSemaphore`：信号量句柄。
+
+> 返回值
+
+- `pdPASS`：释放信号量成功。
+- `pdFAIL`：释放信号量失败。
+
 ### xSemaphoreDelete
+
+> 函数原型
+
+```c
+void vSemaphoreDelete(SemaphoreHandle_t xSemaphore); // 信号量句柄
+```
+
+> 函数简介
+
+`vSemaphoreDelete` 是一个用于删除信号量的函数。调用 `vSemaphoreDelete` 函数后，信号量将被删除。
+
+> 参数
+
+- `xSemaphore`：信号量句柄。
+
