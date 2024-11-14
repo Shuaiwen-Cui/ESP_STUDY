@@ -2,98 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://localhost:8000/</loc>
-        <lastmod>2024-11-13</lastmod>
+        <lastmod>2024-11-14</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/"/>
     </url>
     <url>
         <loc>https://localhost:8000/ESP32/ESP32/</loc>
-        <lastmod>2024-11-13</lastmod>
+        <lastmod>2024-11-14</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/ESP32/ESP32/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/ESP32/ESP32/"/>
     </url>
     <url>
         <loc>https://localhost:8000/GET_STARTED/ENVIRONMENT/environment/</loc>
-        <lastmod>2024-11-13</lastmod>
+        <lastmod>2024-11-14</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/ENVIRONMENT/environment/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/ENVIRONMENT/environment/"/>
     </url>
     <url>
         <loc>https://localhost:8000/GET_STARTED/HANDS-ON/hands-on/</loc>
-        <lastmod>2024-11-13</lastmod>
+        <lastmod>2024-11-14</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/HANDS-ON/hands-on/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/HANDS-ON/hands-on/"/>
     </url>
     <url>
         <loc>https://localhost:8000/GET_STARTED/HARDWARE/hardware/</loc>
-        <lastmod>2024-11-13</lastmod>
+        <lastmod>2024-11-14</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/HARDWARE/hardware/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/HARDWARE/hardware/"/>
     </url>
     <url>
         <loc>https://localhost:8000/GET_STARTED/TEMPLATE/template/</loc>
-        <lastmod>2024-11-13</lastmod>
+        <lastmod>2024-11-14</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/TEMPLATE/template/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/TEMPLATE/template/"/>
     </url>
     <url>
         <loc>https://localhost:8000/blog/</loc>
-        <lastmod>2024-11-13</lastmod>
+        <lastmod>2024-11-14</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/blog/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/blog/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/</loc>
-        <lastmod>2024-11-13</lastmod>
+        <lastmod>2024-11-14</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/ESP32/ESP32/</loc>
-        <lastmod>2024-11-13</lastmod>
+        <lastmod>2024-11-14</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/ESP32/ESP32/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/ESP32/ESP32/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/GET_STARTED/ENVIRONMENT/environment/</loc>
-        <lastmod>2024-11-13</lastmod>
+        <lastmod>2024-11-14</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/ENVIRONMENT/environment/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/ENVIRONMENT/environment/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/GET_STARTED/HANDS-ON/hands-on/</loc>
-        <lastmod>2024-11-13</lastmod>
+        <lastmod>2024-11-14</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/HANDS-ON/hands-on/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/HANDS-ON/hands-on/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/GET_STARTED/HARDWARE/hardware/</loc>
-        <lastmod>2024-11-13</lastmod>
+        <lastmod>2024-11-14</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/HARDWARE/hardware/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/HARDWARE/hardware/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/GET_STARTED/TEMPLATE/template/</loc>
-        <lastmod>2024-11-13</lastmod>
+        <lastmod>2024-11-14</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/TEMPLATE/template/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/TEMPLATE/template/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/blog/</loc>
-        <lastmod>2024-11-13</lastmod>
+        <lastmod>2024-11-14</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/blog/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/blog/"/>
