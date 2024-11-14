@@ -8,11 +8,46 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/CHEATING_SHEET/cheating_sheet/</loc>
+        <lastmod>2024-11-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/cheating_sheet/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/cheating_sheet/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/CHEATING_SHEET/FREERTOS/freertos/</loc>
+        <lastmod>2024-11-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/FREERTOS/freertos/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/FREERTOS/freertos/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/CHEATING_SHEET/LOGS/logs/</loc>
+        <lastmod>2024-11-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/LOGS/logs/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/LOGS/logs/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/CHEATING_SHEET/MODULES/modules/</loc>
+        <lastmod>2024-11-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/MODULES/modules/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/MODULES/modules/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/ESP32/ESP32/</loc>
         <lastmod>2024-11-14</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/ESP32/ESP32/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/ESP32/ESP32/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/FREERTOS/quickstart/</loc>
+        <lastmod>2024-11-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/quickstart/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/quickstart/"/>
     </url>
     <url>
         <loc>https://localhost:8000/GET_STARTED/ENVIRONMENT/environment/</loc>
@@ -71,11 +106,46 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/zh/CHEATING_SHEET/cheating_sheet/</loc>
+        <lastmod>2024-11-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/cheating_sheet/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/cheating_sheet/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CHEATING_SHEET/FREERTOS/freertos/</loc>
+        <lastmod>2024-11-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/FREERTOS/freertos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/FREERTOS/freertos/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CHEATING_SHEET/LOGS/logs/</loc>
+        <lastmod>2024-11-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/LOGS/logs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/LOGS/logs/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CHEATING_SHEET/MODULES/modules/</loc>
+        <lastmod>2024-11-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/MODULES/modules/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/MODULES/modules/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/zh/ESP32/ESP32/</loc>
         <lastmod>2024-11-14</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/ESP32/ESP32/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/ESP32/ESP32/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/FREERTOS/quickstart/</loc>
+        <lastmod>2024-11-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/quickstart/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/quickstart/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/GET_STARTED/ENVIRONMENT/environment/</loc>

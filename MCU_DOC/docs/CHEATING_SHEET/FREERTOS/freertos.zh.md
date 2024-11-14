@@ -235,3 +235,207 @@ void app_main(void)
 
 !!! tip
     在 FreeRTOS 中，时钟节拍的频率由 `configTICK_RATE_HZ` 宏定义。且延时函数中输入时间其实是系统节拍，而非物理世界时间，所以为了方便使用，FreeRTOS 提供了 `pdMS_TO_TICKS` 宏来将毫秒转换为节拍数。
+
+## 任务间同步
+
+!!! note
+    RTOS中的同步，是指是不同任务之间或者任务与外部事件之间的协同工作方式确保多个并发执行的任务按照预期的顺序或时机执行。"它涉及到线程或任务间的通信和协调机制，目的是为了避免数据竞争、解决竞态条件，并确保系统的正确行为。
+
+!!! note
+    互斥是指某一资源同时只允许一个访问者对其进行访问,具有唯一性和排它性。
+
+!!! note
+    队列是一种数据结构，用于在任务之间传递数据。队列是一种先进先出（FIFO）的数据结构，任务可以将数据放入队列，也可以从队列中取出数据。
+
+## 队列
+
+### xQueueCreate
+
+> 函数原型
+
+```c
+QueueHandle_t xQueueCreate(const UBaseType_t uxQueueLength, // 队列长度
+                           const UBaseType_t uxItemSize); // 队列中每个元素的大小
+```
+> 函数简介
+
+`xQueueCreate` 是一个用于创建队列的函数。队列是一种先进先出（FIFO）的数据结构，用于在任务之间传递数据。
+
+> 参数
+
+- `uxQueueLength`：队列的长度，即队列中可以存放的元素个数。
+- `uxItemSize`：队列中每个元素的大小，以字节为单位。
+
+> 返回值
+
+- 队列句柄：队列创建成功。
+- `NULL`：队列创建失败。
+
+### xQueueSend
+
+> 函数原型
+
+```c
+BaseType_t xQueueSend(QueueHandle_t xQueue, // 队列句柄
+                      const void *pvItemToQueue, // 要发送到队列的数据指针，拷贝到队列中
+                      TickType_t xTicksToWait); // 等待时间
+```
+
+> 函数简介
+
+`xQueueSend` 是一个用于向队列发送数据的函数。调用 `xQueueSend` 函数后，数据将被发送到队列中。
+
+> 参数
+
+- `xQueue`：队列句柄。
+- `pvItemToQueue`：要发送到队列的数据指针。
+- `xTicksToWait`：等待时间，即在队列满时等待的时间。如果队列已满，任务将在等待时间内等待队列有空间可用。如果等待时间为 0，则任务将立即返回。
+
+### xQueueSendToBack
+
+> 函数原型
+
+```c
+BaseType_t xQueueSendToBack(QueueHandle_t xQueue, // 队列句柄
+                            const void *pvItemToQueue, // 要发送到队列的数据指针，拷贝到队列中
+                            TickType_t xTicksToWait); // 等待时间
+```
+> 函数简介
+
+`xQueueSendToBack` 是一个用于向队列发送数据的函数。调用 `xQueueSendToBack` 函数后，数据将被发送到队列中, 位置为队列的尾部。 适合明确需要发送到队列尾部的情况。
+
+> 参数
+
+- `xQueue`：队列句柄。
+- `pvItemToQueue`：要发送到队列的数据指针。
+- `xTicksToWait`：等待时间，即在队列满时等待的时间。如果队列已满，任务将在等待时间内等待队列有空间可用。如果等待时间为 0，则任务将立即返回。
+
+### xQueueReceive
+
+> 函数原型
+
+```c
+BaseType_t xQueueReceive(QueueHandle_t xQueue, // 队列句柄
+                         void *pvBuffer, // 接收数据的缓冲区指针
+                         TickType_t xTicksToWait); // 等待时间
+```
+
+> 函数简介
+
+`xQueueReceive` 是一个用于从队列接收数据的函数。调用 `xQueueReceive` 函数后，数据将从队列中接收。
+
+> 参数
+
+- `xQueue`：队列句柄。
+- `pvBuffer`：接收数据的缓冲区指针。
+
+
+### xQueueSendFromISR
+
+> 函数原型
+
+```c
+BaseType_t xQueueSendFromISR(QueueHandle_t xQueue, // 队列句柄
+                             const void *pvItemToQueue, // 要发送到队列的数据指针
+                             BaseType_t *pxHigherPriorityTaskWoken); // 高优先级任务唤醒标志
+```
+
+> 函数简介
+
+`xQueueSendFromISR` 是一个用于从中断服务程序（ISR）中向队列发送数据的函数。调用 `xQueueSendFromISR` 函数后，数据将被发送到队列中。
+
+> 参数
+
+- `xQueue`：队列句柄。
+- `pvItemToQueue`：要发送到队列的数据指针。
+- `pxHigherPriorityTaskWoken`：高优先级任务唤醒标志。如果在发送数据时唤醒了一个高优先级任务，则将此参数设置为 `pdTRUE`。
+
+## 信号量
+
+### xSemaphoreCreateBinary
+
+> 函数原型
+
+```c
+SemaphoreHandle_t xSemaphoreCreateBinary(void);
+```
+
+> 函数简介
+
+`xSemaphoreCreateBinary` 是一个用于创建二值信号量的函数。二值信号量是一种只有两种状态的信号量，即可用和不可用。
+
+> 返回值
+
+- 信号量句柄：信号量创建成功。
+- `NULL`：信号量创建失败。
+
+### xSemaphoreCreateCounting
+
+> 函数原型
+
+```c
+SemaphoreHandle_t xSemaphoreCreateCounting(const UBaseType_t uxMaxCount, // 最大计数值
+                                           const UBaseType_t uxInitialCount); // 初始计数值
+```
+
+> 函数简介
+
+`xSemaphoreCreateCounting` 是一个用于创建计数信号量的函数。计数信号量是一种可以存储多个计数值的信号量。
+
+> 参数
+
+- `uxMaxCount`：最大计数值。
+- `uxInitialCount`：初始计数值。
+
+> 返回值
+
+- 信号量句柄：信号量创建成功。
+- `NULL`：信号量创建失败。
+
+### xSemaphoreCreateMutex
+
+> 函数原型
+
+```c
+SemaphoreHandle_t xSemaphoreCreateMutex(void);
+```
+
+> 函数简介
+
+`xSemaphoreCreateMutex` 是一个用于创建互斥信号量的函数。互斥信号量是一种用于实现互斥访问的信号量，用于保护共享资源。
+
+> 返回值
+
+- 信号量句柄：信号量创建成功。
+- `NULL`：信号量创建失败。
+
+!!! info "互斥锁"
+    互斥锁是一种用于实现互斥访问的同步机制。在 FreeRTOS 中，互斥锁是通过互斥信号量实现的。互斥锁可以确保在任何时候只有一个任务可以访问共享资源。与二值信号量不同，互斥锁实现了优先级继承和优先级反转机制，以确保任务能够按照优先级顺序访问共享资源。
+
+!!! info "优先级翻转"
+    优先级翻转是指低优先级任务暂时占用资源，导致高优先级任务被阻塞，甚至被中等优先级的任务进一步延迟。最终，高优先级任务的执行被低优先级任务间接地延后了，这种现象被称为优先级翻转。
+    
+    典型的优先级翻转场景如下：
+    假设有三个任务，优先级从高到低依次是 任务A、任务B 和 任务C，且它们共享一个资源（例如互斥锁）。
+    步骤 1：低优先级的 任务C 获得了该资源（锁）并正在使用它。
+    步骤 2：在 任务C 还没释放资源时，高优先级的 任务A 开始运行，并尝试访问相同的资源。但是因为资源已经被 任务C 占用，所以 任务A 被阻塞，等待 任务C 释放资源。
+    步骤 3：这时，优先级介于两者之间的 任务B 开始运行，并且由于它的优先级比 任务C 高，因此 任务B 会抢占 任务C 的执行。
+    结果：由于 任务B 的执行，任务C 的进程被推迟，从而导致 任务A 也被延迟。即使 任务A 的优先级最高，它也无法立即执行，因为中优先级的 任务B 间接阻碍了它的执行。
+    这种情况称为优先级翻转，因为低优先级任务 任务C 的执行阻碍了高优先级任务 任务A 的执行，而 任务B 的介入使得翻转效果更为严重。
+
+    优先级翻转会造成实时系统的高优先级任务无法按时完成，导致系统性能下降或不稳定。在实时应用中（如控制系统或通信系统），优先级翻转可能会带来严重的后果。
+
+    FreeRTOS 和许多其他 RTOS 使用优先级继承（Priority Inheritance）来解决优先级翻转问题。优先级继承机制的原理如下：
+    当低优先级任务持有某个资源并阻塞了一个高优先级任务时，低优先级任务会继承该高优先级任务的优先级，直到资源被释放。
+    在上述示例中，任务C 在阻塞了高优先级的 任务A 后，会临时提升为 任务A 的优先级。
+    这样一来，任务C 能够优先于 任务B 继续运行并尽快释放资源，从而让 任务A 能够及时获取资源并执行。
+    一旦 任务C 释放资源，它的优先级会恢复到原始水平。
+
+
+
+
+### xSemaphoreTake
+
+### xSemaphoreGive
+
+### xSemaphoreDelete

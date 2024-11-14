@@ -13,6 +13,17 @@ Usage:
 #include <stdio.h>
 ```
 
+### string
+
+!!! info "Introduction"
+    The string library is a standard library of the C language, which provides a series of string processing functions, such as strcpy, strcat, etc. The header file of the string library is string.h. After introducing this header file, you can use the functions of the string library. 
+
+Usage:
+
+```c
+#include <string.h>
+```
+
 ## LOG MODULES
 
 ### esp_log
@@ -48,4 +59,15 @@ Usage:
 
 ```c
 #include "freertos/task.h"   
+```
+
+### freertos/queue
+
+!!! info "Introduction"
+    The FreeRTOS queue management library is a module of FreeRTOS, which provides some queue management functions, such as queue creation, queue deletion, queue sending, queue receiving, etc. queue.h represents the header file of the queue management library. After introducing this header file, you can use the functions of the queue management library.
+
+Usage:
+
+```c
+#include "freertos/queue.h"   
 ```

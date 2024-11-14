@@ -234,3 +234,118 @@ void app_main(void)
 
 !!! tip
     In FreeRTOS, the frequency of the clock tick is defined by the `configTICK_RATE_HZ` macro. And the input time in the delay function is actually the system tick, not the physical world time, so for ease of use, FreeRTOS provides the `pdMS_TO_TICKS` macro to convert milliseconds to ticks.
+
+## Inter-task synchronization
+
+!!! note
+Synchronization in RTOS refers to the collaborative working method between different tasks or between tasks and external events to ensure that multiple concurrently executed tasks are executed in the expected order or timing. "It involves the communication and coordination mechanism between threads or tasks, the purpose is to avoid data competition, solve race conditions, and ensure the correct behavior of the system.
+
+!!! note
+Mutual exclusion means that a resource is only allowed to be accessed by one visitor at a time, which is unique and exclusive.
+
+!!! note
+A queue is a data structure used to transfer data between tasks. A queue is a first-in-first-out (FIFO) data structure. Tasks can put data into the queue and take data out of the queue.
+
+## Queue
+
+### xQueueCreate
+
+> Function prototype
+
+```c
+QueueHandle_t xQueueCreate(const UBaseType_t uxQueueLength, // Queue length
+const UBaseType_t uxItemSize); // Size of each element in the queue
+```
+> Function introduction
+
+`xQueueCreate` is a function used to create a queue. A queue is a first-in-first-out (FIFO) data structure used to pass data between tasks.
+
+> Parameters
+
+- `uxQueueLength`: The length of the queue, that is, the number of elements that can be stored in the queue.
+
+- `uxItemSize`: The size of each element in the queue, in bytes.
+
+> Return value
+
+- Queue handle: The queue was created successfully.
+
+- `NULL`: The queue was not created successfully.
+
+### xQueueSend
+
+> Function prototype
+
+```c
+BaseType_t xQueueSend(QueueHandle_t xQueue, // Queue handle
+const void *pvItemToQueue, // Data pointer to be sent to the queue, copied to the queue
+TickType_t xTicksToWait); // Waiting time
+```
+
+> Function introduction
+
+`xQueueSend` is a function used to send data to a queue. After calling the `xQueueSend` function, the data will be sent to the queue.
+
+> Parameters
+
+- `xQueue`: Queue handle.
+- `pvItemToQueue`: Data pointer to be sent to the queue.
+- `xTicksToWait`: Waiting time, that is, the waiting time when the queue is full. If the queue is full, the task will wait for space to be available in the queue within the waiting time. If the waiting time is 0, the task will return immediately.
+
+### xQueueSendToBack
+
+> Function prototype
+
+```c
+BaseType_t xQueueSendToBack(QueueHandle_t xQueue, // Queue handle
+const void *pvItemToQueue, // Data pointer to be sent to the queue, copied to the queue
+TickType_t xTicksToWait); // Waiting time
+```
+> Function introduction
+
+`xQueueSendToBack` is a function used to send data to a queue. After calling the `xQueueSendToBack` function, the data will be sent to the queue at the end of the queue. Suitable for situations where it is clear that the data needs to be sent to the end of the queue.
+
+> Parameters
+
+- `xQueue`: Queue handle.
+- `pvItemToQueue`: Data pointer to be sent to the queue.
+- `xTicksToWait`: Waiting time, that is, the waiting time when the queue is full. If the queue is full, the task will wait for space to be available in the queue during the waiting time. If the wait time is 0, the task will return immediately.
+
+### xQueueReceive
+
+> Function prototype
+
+```c
+BaseType_t xQueueReceive(QueueHandle_t xQueue, // Queue handle
+void *pvBuffer, // Buffer pointer for receiving data
+TickType_t xTicksToWait); // Waiting time
+```
+
+> Function introduction
+
+`xQueueReceive` is a function for receiving data from a queue. After calling the `xQueueReceive` function, data will be received from the queue.
+
+> Parameters
+
+- `xQueue`: Queue handle.
+- `pvBuffer`: Buffer pointer for receiving data.
+
+### xQueueSendFromISR
+
+> Function prototype
+
+```c
+BaseType_t xQueueSendFromISR(QueueHandle_t xQueue, // Queue handle
+const void *pvItemToQueue, // Data pointer to be sent to the queue
+BaseType_t *pxHigherPriorityTaskWoken); // High priority task wake-up flag
+```
+
+> Function introduction
+
+`xQueueSendFromISR` is a function used to send data to a queue from an interrupt service routine (ISR). After calling the `xQueueSendFromISR` function, the data will be sent to the queue.
+
+> Parameters
+
+- `xQueue`: Queue handle.
+- `pvItemToQueue`: Data pointer to be sent to the queue.
+- `pxHigherPriorityTaskWoken`: High priority task wake-up flag. If a high priority task is woken up when sending data, this parameter is set to `pdTRUE`.

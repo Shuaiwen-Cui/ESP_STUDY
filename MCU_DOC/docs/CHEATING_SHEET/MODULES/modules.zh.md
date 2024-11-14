@@ -14,6 +14,17 @@
 #include <stdio.h>
 ```
 
+### string
+
+!!! info "简介"
+    字符串库是C语言的标准库，提供了一系列的字符串处理函数，如strcpy、strcat等。字符串库的头文件是string.h，引入该头文件后，就可以使用字符串库的函数。
+
+用法：
+
+```c
+#include <string.h>
+```
+
 ## 日志模块
 
 ### esp_log
@@ -49,4 +60,15 @@
 
 ```c
 #include "freertos/task.h"   
+```
+
+### freertos/queue
+
+!!! info "简介"
+    FreeRTOS队列管理库是FreeRTOS的一个模块，提供了一些队列管理函数，如队列创建、队列删除、队列发送、队列接收等。queue.h 代表了队列管理库的头文件，引入该头文件后，就可以使用队列管理库的函数。
+
+用法：
+
+```c
+#include "freertos/queue.h"   
 ```
