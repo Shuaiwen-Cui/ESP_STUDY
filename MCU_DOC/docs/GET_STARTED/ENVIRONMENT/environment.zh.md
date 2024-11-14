@@ -191,3 +191,31 @@ nano ~/.bashrc
 ```shell
 source ~/.bashrc
 ```
+## VSCode ESP-IDF插件
+!!! note
+    这是当前最流行的ESP-IDF开发方式之一。VSCode是一个轻量级的代码编辑器，支持多种编程语言，包括C/C++。ESP-IDF插件为VSCode提供了对ESP-IDF的完整支持，包括代码自动完成、调试、构建和烧录等功能。
+
+1. 安装VSCode
+
+    首先，你需要安装VSCode。你可以从[这里](https://code.visualstudio.com/)下载适用于你的操作系统的安装程序。
+
+2. 安装ESP-IDF插件
+
+    安装ESP-IDF插件的步骤如下：
+
+    - 打开VSCode。
+    - 点击左侧的扩展图标。
+    - 在搜索框中输入“ESP-IDF”。
+    - 点击“安装”按钮。
+
+3. 配置ESP-IDF路径 和 ESP-IDF tools路径
+
+    安装ESP-IDF插件后，你需要配置ESP-IDF路径和ESP-IDF tools路径。这些路径告诉插件在哪里找到ESP-IDF和相关工具。
+
+    - 打开VSCode。
+    - 点击左下角的“设置”图标。
+    - 在搜索框中输入“ESP-IDF”。
+    - 在“ESP-IDF路径”和“ESP-IDF tools路径”字段中输入ESP-IDF和ESP-IDF tools的路径。（如果电脑上没有，设置好路径，插件会自动下载）
+    - 保存设置。
+
+4. 创建新项目

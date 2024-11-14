@@ -180,3 +180,32 @@ After removing the alias, refresh the configuration file by running the followin
 ```shell
 source ~/.bashrc
 ```
+
+## VSCode ESP-IDF Plugin
+!!! note
+    This is currently one of the most popular ways to develop with ESP-IDF. VSCode is a lightweight code editor that supports multiple programming languages, including C/C++. The ESP-IDF plugin provides full support for ESP-IDF in VSCode, including features like code autocompletion, debugging, building, and flashing.
+
+1. Install VSCode
+
+    First, you need to install VSCode. You can download the installer for your operating system [here](https://code.visualstudio.com/).
+
+2. Install the ESP-IDF Plugin
+
+    To install the ESP-IDF plugin, follow these steps:
+
+    - Open VSCode.
+    - Click the Extensions icon on the left sidebar.
+    - Type “ESP-IDF” in the search bar.
+    - Click the “Install” button.
+
+3. Configure ESP-IDF Path and ESP-IDF Tools Path
+
+    After installing the ESP-IDF plugin, you need to configure the ESP-IDF path and ESP-IDF tools path. These paths tell the plugin where to find ESP-IDF and its related tools.
+
+    - Open VSCode.
+    - Click the “Settings” icon in the lower left corner.
+    - Type “ESP-IDF” in the search bar.
+    - Enter the paths for ESP-IDF and ESP-IDF tools in the “ESP-IDF Path” and “ESP-IDF Tools Path” fields. (If they are not already installed, the plugin will automatically download them once the paths are set.)
+    - Save the settings.
+
+4. Create a New Project

@@ -22,6 +22,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/ENVIRONMENT/environment/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/GET_STARTED/HANDS-ON/hands-on/</loc>
+        <lastmod>2024-11-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/HANDS-ON/hands-on/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/HANDS-ON/hands-on/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/GET_STARTED/HARDWARE/hardware/</loc>
         <lastmod>2024-11-13</lastmod>
         <changefreq>daily</changefreq>
@@ -62,6 +69,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/ENVIRONMENT/environment/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/ENVIRONMENT/environment/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/GET_STARTED/HANDS-ON/hands-on/</loc>
+        <lastmod>2024-11-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/HANDS-ON/hands-on/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/HANDS-ON/hands-on/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/GET_STARTED/HARDWARE/hardware/</loc>
