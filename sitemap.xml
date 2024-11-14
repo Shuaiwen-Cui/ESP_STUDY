@@ -50,6 +50,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/TUTORIAL_STUDY/morningcore/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/TUTORIAL_STUDY/01-helloworld/helloworld/</loc>
+        <lastmod>2024-11-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/TUTORIAL_STUDY/01-helloworld/helloworld/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/TUTORIAL_STUDY/01-helloworld/helloworld/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/blog/</loc>
         <lastmod>2024-11-14</lastmod>
         <changefreq>daily</changefreq>
@@ -104,6 +111,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/TUTORIAL_STUDY/morningcore/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/TUTORIAL_STUDY/morningcore/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/TUTORIAL_STUDY/01-helloworld/helloworld/</loc>
+        <lastmod>2024-11-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/TUTORIAL_STUDY/01-helloworld/helloworld/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/TUTORIAL_STUDY/01-helloworld/helloworld/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/blog/</loc>
