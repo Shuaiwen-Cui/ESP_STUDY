@@ -5,6 +5,23 @@
 !!! info
     FreeRTOS is a small real-time operating system kernel that supports multitasking, timers, semaphores, queues, mutexes, and other functions. FreeRTOS is an open-source project now maintained by Amazon Web Services.
 
+!!! warning
+    Native FREERTOS and ESP-IDF FREERTOS are different. ESP-IDF FREERTOS is a secondary development based on native     FREERTOS.
+    
+    1. Priority issues are not applicable to multi-core situations because multiple tasks can run simultaneously.
+    2. esp-idf automatically creates idle (0), timer (1), app_main (1), IPC-multi-core coordination (24), ESP   timer-ESP timer callback (22). The priority is in brackets.
+    3. esp-idf does not use native FreeRTOS's memory heap management and implements its own heap.
+    4. Use xTaskCreatePinnedToCore() to create a task.
+    5. Avoid deleting the task of another core when deleting a task.
+    6. The critical section uses a spin lock to ensure synchronization.
+    7. If floating-point operations are used in the task, the specific core on which it runs must be specified when     creating the task, and it cannot be automatically arranged by the system.
+    
+    In general, the recommendations are as follows:
+    
+    1) Application developers create tasks that specify cores, and it is recommended not to use tskNO AFFINITY.
+    
+    2) Typically, the task responsible for handling wireless networks (e.g., WiFi or Bluetooth) will be pinned to   CPUO (hence the name PRO_CPU), while the task that handles the rest of the application will be pinned to CPU1     (hence the name APP CPU)
+
 ## Core Concepts
 
 > without RTOS

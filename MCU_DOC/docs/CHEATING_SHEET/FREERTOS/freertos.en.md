@@ -238,13 +238,13 @@ void app_main(void)
 ## Inter-task synchronization
 
 !!! note
-Synchronization in RTOS refers to the collaborative working method between different tasks or between tasks and external events to ensure that multiple concurrently executed tasks are executed in the expected order or timing. "It involves the communication and coordination mechanism between threads or tasks, the purpose is to avoid data competition, solve race conditions, and ensure the correct behavior of the system.
+    Synchronization in RTOS refers to the collaborative working method between different tasks or between tasks and external events to ensure that multiple concurrently executed tasks are executed in the expected order or timing. "It involves the communication and coordination mechanism between threads or tasks, the purpose is to avoid data competition, solve race conditions, and ensure the correct behavior of the system.
 
 !!! note
-Mutual exclusion means that a resource is only allowed to be accessed by one visitor at a time, which is unique and exclusive.
+    Mutual exclusion means that a resource is only allowed to be accessed by one visitor at a time, which is unique and exclusive.
 
 !!! note
-A queue is a data structure used to transfer data between tasks. A queue is a first-in-first-out (FIFO) data structure. Tasks can put data into the queue and take data out of the queue.
+    A queue is a data structure used to transfer data between tasks. A queue is a first-in-first-out (FIFO) data structure. Tasks can put data into the queue and take data out of the queue.
 
 ## Queue
 
@@ -417,10 +417,10 @@ SemaphoreHandle_t xSemaphoreCreateMutex(void);
 - `NULL`: semaphore creation fails.
 
 !!! info "Mutex"
-A mutex is a synchronization mechanism used to implement mutually exclusive access. In FreeRTOS, mutexes are implemented by mutex semaphores. Mutexes ensure that only one task can access a shared resource at any time. Unlike binary semaphores, mutexes implement priority inheritance and priority inversion mechanisms to ensure that tasks can access shared resources in order of priority.
+    A mutex is a synchronization mechanism used to implement mutually exclusive access. In FreeRTOS, mutexes are implemented by mutex semaphores. Mutexes ensure that only one task can access a shared resource at any time. Unlike binary semaphores, mutexes implement priority inheritance and priority inversion mechanisms to ensure that tasks can access shared resources in order of priority.
 
 !!! info "Priority Flip"
-Priority flip refers to the temporary occupation of resources by low-priority tasks, which causes high-priority tasks to be blocked or even further delayed by medium-priority tasks. Ultimately, the execution of high-priority tasks is indirectly delayed by low-priority tasks, a phenomenon known as priority flip.
+    Priority flip refers to the temporary occupation of resources by low-priority tasks, which causes high-priority tasks to be blocked or even further delayed by medium-priority tasks. Ultimately, the execution of high-priority tasks is indirectly delayed by low-priority tasks, a phenomenon known as priority flip.
 
 A typical priority flip scenario is as follows:
 Suppose there are three tasks, with priorities from high to low: Task A, Task B, and Task C, and they share a resource (such as a mutex).
@@ -500,3 +500,168 @@ void vSemaphoreDelete(SemaphoreHandle_t xSemaphore); // semaphore handle
 > Parameters
 
 - `xSemaphore`: semaphore handle.
+
+## Event Groups and Direct Task Notifications
+
+!!! note "Event Groups"
+    Event groups are a mechanism for managing event notifications between tasks. Event groups allow tasks to wait for a combination of multiple events so that they can be woken up when any event occurs. Event groups are often used for synchronization and communication between tasks so that tasks can decide what to do next based on the state of the event.
+
+!!! tip
+    Event groups can replace semaphores in many cases.
+
+!!! note "Event Bits"
+    Events in an event group are represented in bits, with each event bit corresponding to one event. The value of an event bit can be 0 or 1, indicating that the event has not occurred or has occurred. The size of an event group depends on the number of event bits, which is usually 8, 16, or 32 bits.
+
+!!! note "Direct Task Notifications"
+    Direct task notifications are a mechanism for sending notifications to tasks. Unlike event groups, direct task notifications are one-to-one notification mechanisms, i.e., one notification can only wake up one task. Direct task notifications are often used for synchronization and communication between tasks so that tasks can decide what to do next based on the state of the notification.
+
+### xEventGroupCreate
+
+> Function prototype
+
+```c
+EventGroupHandle_t xEventGroupCreate(void);
+```
+
+> Function introduction
+
+`xEventGroupCreate` is a function used to create an event group. An event group is a mechanism for managing event notifications between tasks.
+
+> Return value
+
+- Event group handle: Event group creation is successful.
+- `NULL`: Event group creation fails.
+
+### xEventGroupWaitBits
+
+> Function prototype
+
+```c
+EventBits_t xEventGroupWaitBits(EventGroupHandle_t xEventGroup, // Event group handle
+const EventBits_t uxBitsToWaitFor, // Event bits to wait for
+const BaseType_t xClearOnExit, // Whether to clear event bits when exiting
+const BaseType_t xWaitForAllBits, // Whether to wait for all event bits
+TickType_t xTicksToWait); // Waiting time
+```
+
+> Function introduction
+
+`xEventGroupWaitBits` is a function used to wait for event bits in an event group. After calling the `xEventGroupWaitBits` function, the task will wait for the event bits in the event group.
+
+> Parameters
+
+- `xEventGroup`: Event group handle.
+- `uxBitsToWaitFor`: Event bits to wait for.
+- `xClearOnExit`: whether to clear the event bit on exit. If set to `pdTRUE`, the event bit is cleared on exit; if set to `pdFALSE`, the event bit is not cleared.
+- `xWaitForAllBits`: whether to wait for all event bits. If set to `pdTRUE`, wait for all event bits; if set to `pdFALSE`, wait for only any event bit.
+- `xTicksToWait`: Wait time, that is, the time to wait when the event bit does not occur. If the event bit does not occur, the task will wait for the event bit to occur within the wait time. If the wait time is 0, the task will return immediately.
+
+> Return value
+
+- The state of the event group after waiting.
+- `NULL`: The event group wait failed.
+
+### xEventGroupSetBits
+
+> Function prototype
+
+```c
+EventBits_t xEventGroupSetBits(EventGroupHandle_t xEventGroup, // Event group handle
+const EventBits_t uxBitsToSet); // Event bits to set
+```
+
+> Function introduction
+
+`xEventGroupSetBits` is a function used to set event bits in an event group. After calling the `xEventGroupSetBits` function, the event bits in the event group will be set.
+
+> Parameters
+
+- `xEventGroup`: event group handle.
+- `uxBitsToSet`: event bits to be set.
+
+> Return value
+
+- The state of the event group after setting.
+
+### xEventGroupClearBits
+
+> Function prototype
+
+```c
+EventBits_t xEventGroupClearBits(EventGroupHandle_t xEventGroup, // event group handle
+const EventBits_t uxBitsToClear); // event bits to be cleared
+```
+
+> Function introduction
+
+`xEventGroupClearBits` is a function used to clear event bits in an event group. After calling the `xEventGroupClearBits` function, the event bits in the event group will be cleared.
+
+> Parameters
+
+- `xEventGroup`: event group handle.
+- `uxBitsToClear`: event bits to be cleared.
+
+> Return value
+
+- The state of the event group after clearing.
+- `NULL`: event group clearing failed.
+
+!!! note "Direct Task Notifications"
+    Each RTOS task has an array of task notifications. Each task notification has a notification state of "pending" or "not pending", and a 32-bit notification value. Direct task notifications are events sent directly to the task, rather than indirectly to the task through an intermediate object (such as a queue, event group, or semaphore). Sending a "direct task notification" to a task sets the target task notification to the "suspended" state (this suspension is not a suspended task).
+
+### xTaskNotify
+
+> Function prototype
+
+```c
+BaseType_t xTaskNotify(TaskHandle_t xTaskToNotify, // Task handle to be notified
+const uint32_t ulValue, // Notification value
+eNotifyAction eAction); // Notification action
+```
+
+> Function introduction
+
+`xTaskNotify` is a function used to send notifications to a task. After calling the `xTaskNotify` function, the notification will be sent to the task.
+
+> Parameters
+
+- `xTaskToNotify`: Task handle to be notified.
+- `ulValue`: Notification value.
+- `eAction`: Notification action. Notification action can be one of the following values:
+- `eNoAction`: Do nothing.
+- `eSetBits`: Set the task notification value.
+- `eIncrement`: Increment the task notification value.
+- `eSetValueWithOverwrite`: Set the task notification value. If the task already has a notification value, overwrite it.
+- `eSetValueWithoutOverwrite`: Set the task notification value. If the task already has a notification value, do not overwrite it.
+
+> Return value
+
+- `pdPASS`: Notification sent successfully.
+- `pdFAIL`: Notification sent failed.
+
+### xTaskNotifyWait
+
+> Function prototype
+
+```c
+BaseType_t xTaskNotifyWait(uint32_t ulBitsToClearOnEntry, // Bits to be cleared on entry
+uint32_t ulBitsToClearOnExit, // Bits to be cleared on exit
+uint32_t *pulNotificationValue, // Notification value
+TickType_t xTicksToWait); // Waiting time
+```
+
+> Function introduction
+
+`xTaskNotifyWait` is a function used to wait for task notification. After calling the `xTaskNotifyWait` function, the task will wait for the notification to arrive.
+
+> Parameters
+
+- `ulBitsToClearOnEntry`: The bit to be cleared on entry.
+- `ulBitsToClearOnExit`: The bit to be cleared on exit.
+- `pulNotificationValue`: Notification value.
+- `xTicksToWait`: Waiting time, that is, the waiting time when the notification has not arrived. If the notification has not arrived, the task will wait for the notification to arrive within the waiting time. If the waiting time is 0, the task will return immediately.
+
+> Return value
+
+- `pdPASS`: Waiting for notification is successful.
+- `pdFAIL`: Waiting for notification failed.

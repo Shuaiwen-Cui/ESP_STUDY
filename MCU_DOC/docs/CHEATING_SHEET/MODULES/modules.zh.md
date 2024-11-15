@@ -72,3 +72,14 @@
 ```c
 #include "freertos/queue.h"   
 ```
+
+### freertos/event_groups
+
+!!! info "简介"
+    FreeRTOS事件组管理库是FreeRTOS的一个模块，提供了一些事件组管理函数，如事件组创建、事件组删除、事件组设置、事件组清除等。event_groups.h 代表了事件组管理库的头文件，引入该头文件后，就可以使用事件组管理库的函数。
+
+用法：
+
+```c
+#include "freertos/event_groups.h"   
+```

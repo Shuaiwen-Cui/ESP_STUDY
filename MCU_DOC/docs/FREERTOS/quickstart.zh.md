@@ -5,6 +5,24 @@
 !!! info
     FreeRTOS 是一个小型的实时操作系统内核，它支持多任务、定时器、信号量、队列、互斥锁等功能。FreeRTOS 是一个开源项目，现在由Amazon Web Services维护。
 
+!!! warning
+    原生FREERTOS和ESP-IDF中FREERTOS是不同的，ESP-IDF中的FREERTOS是基于原生FREERTOS的二次开发。
+
+    1. 优先级问题，多核情况并不适用，因为多个任务可同时运行。
+    2. esp-idf自动创建空闲（0）、定时器（1）、app_main（1）、IPC-多核协调（24）、ESP定时器-ESP定时器回调（22）。括号内为优先级。
+    3. esp-idf不使用原生FreeRTOS的内存堆管理实现了自己的堆。
+    4. 创建任务使用xTaskCreatePinnedToCore()。
+    5. 删除任务避免删除另外一个核的任务。
+    6. 临界区使用自旋锁确保同步。
+    7. 如果任务中用到浮点运算，则创建任务的时候必须指定具体运行在哪个核上，不能由系统自动安排。
+
+    总的来说，建议如下:
+
+    1) 程序应用开发创建任务指定内核，建议不要使用tskNO AFFINITY。
+
+    2) 通常，负责处理无线网络的任务(例如，WiFi或蓝牙)将被固定到CPUO(因此名称PRO_CPU)，而处理应用程序其余部分的任务将被固定到CPU1(因此名称APP CPU)
+
+
 ## 核心概念
 
 > without RTOS

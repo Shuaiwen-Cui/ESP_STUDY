@@ -494,3 +494,172 @@ void vSemaphoreDelete(SemaphoreHandle_t xSemaphore); // 信号量句柄
 
 - `xSemaphore`：信号量句柄。
 
+## 事件组和直达任务通知
+
+!!! note "事件组"
+    事件组是一种用于管理任务间事件通知的机制。事件组允许任务等待多个事件的组合，以便在任何事件发生时唤醒任务。事件组通常用于任务间的同步和通信，以便任务能够根据事件的状态来决定下一步的操作。
+
+!!! tip
+    事件组在很多情况下都可以替代信号量。
+
+!!! note "事件位"
+    事件组中的事件是以位的形式表示的，每个事件位对应一个事件。事件位的值可以是 0 或 1，表示事件未发生或已发生。事件组的大小取决于事件位的数量，通常是 8、16 或 32 位。
+
+!!! note "直达任务通知"
+    直达任务通知是一种用于向任务发送通知的机制。与事件组不同，直达任务通知是一对一的通知机制，即一个通知只能唤醒一个任务。直达任务通知通常用于任务间的同步和通信，以便任务能够根据通知的状态来决定下一步的操作。
+
+
+### xEventGroupCreate
+
+> 函数原型
+
+```c
+EventGroupHandle_t xEventGroupCreate(void);
+```
+
+> 函数简介
+
+`xEventGroupCreate` 是一个用于创建事件组的函数。事件组是一种用于管理任务间事件通知的机制。
+
+> 返回值
+
+- 事件组句柄：事件组创建成功。
+- `NULL`：事件组创建失败。
+
+### xEventGroupWaitBits
+
+> 函数原型
+
+```c
+EventBits_t xEventGroupWaitBits(EventGroupHandle_t xEventGroup, // 事件组句柄
+                                const EventBits_t uxBitsToWaitFor, // 要等待的事件位
+                                const BaseType_t xClearOnExit, // 退出时是否清除事件位
+                                const BaseType_t xWaitForAllBits, // 是否等待所有事件位
+                                TickType_t xTicksToWait); // 等待时间
+```
+
+> 函数简介
+
+`xEventGroupWaitBits` 是一个用于等待事件组中事件位的函数。调用 `xEventGroupWaitBits` 函数后，任务将等待事件组中的事件位。
+
+> 参数
+
+- `xEventGroup`：事件组句柄。
+- `uxBitsToWaitFor`：要等待的事件位。
+- `xClearOnExit`：退出时是否清除事件位。如果设置为 `pdTRUE`，则在退出时清除事件位；如果设置为 `pdFALSE`，则不清除事件位。
+- `xWaitForAllBits`：是否等待所有事件位。如果设置为 `pdTRUE`，则等待所有事件位；如果设置为 `pdFALSE`，则只等待任一事件位。
+- `xTicksToWait`：等待时间，即在事件位未发生时等待的时间。如果事件位未发生，任务将在等待时间内等待事件位发生。如果等待时间为 0，则任务将立即返回。
+
+> 返回值
+
+- 等待后的事件组状态。
+- `NULL`：事件组等待失败。
+
+
+### xEventGroupSetBits
+
+> 函数原型
+
+```c
+EventBits_t xEventGroupSetBits(EventGroupHandle_t xEventGroup, // 事件组句柄
+                               const EventBits_t uxBitsToSet); // 要设置的事件位
+```
+
+> 函数简介
+
+`xEventGroupSetBits` 是一个用于设置事件组中事件位的函数。调用 `xEventGroupSetBits` 函数后，事件组中的事件位将被设置。
+
+> 参数
+
+- `xEventGroup`：事件组句柄。
+- `uxBitsToSet`：要设置的事件位。
+
+> 返回值
+
+- 设置后的事件组状态。
+
+### xEventGroupClearBits
+
+> 函数原型
+
+```c
+EventBits_t xEventGroupClearBits(EventGroupHandle_t xEventGroup, // 事件组句柄
+                                 const EventBits_t uxBitsToClear); // 要清除的事件位
+```
+
+> 函数简介
+
+`xEventGroupClearBits` 是一个用于清除事件组中事件位的函数。调用 `xEventGroupClearBits` 函数后，事件组中的事件位将被清除。
+
+> 参数
+
+- `xEventGroup`：事件组句柄。
+- `uxBitsToClear`：要清除的事件位。
+
+> 返回值
+
+- 清除后的事件组状态。
+- `NULL`：事件组清除失败。
+
+!!! note "直达任务通知"
+    每个RTOS任务都有一个任务通知数组。每条任务通知 都有“挂起”或“非挂起”的通知状态， 以及一个 32 位通知值。直达任务通知是直接发送至任务的事件，而不是通过中间对象(如队列、事件组或信号量)间接发送至任务的事件。向任务发送“直达任务通知”会将目标任务通知设为“挂起”状态(此挂起不是挂起任务)。
+
+
+### xTaskNotify
+
+> 函数原型
+
+```c
+BaseType_t xTaskNotify(TaskHandle_t xTaskToNotify, // 要通知的任务句柄
+                       const uint32_t ulValue, // 通知值
+                       eNotifyAction eAction); // 通知动作
+```
+
+> 函数简介
+
+`xTaskNotify` 是一个用于向任务发送通知的函数。调用 `xTaskNotify` 函数后，通知将被发送到任务中。
+
+> 参数
+
+- `xTaskToNotify`：要通知的任务句柄。
+- `ulValue`：通知值。
+- `eAction`：通知动作。通知动作可以是以下值之一：
+  - `eNoAction`：不执行任何操作。
+  - `eSetBits`：设置任务通知值。
+  - `eIncrement`：递增任务通知值。
+  - `eSetValueWithOverwrite`：设置任务通知值，如果任务已有通知值，则覆盖。
+  - `eSetValueWithoutOverwrite`：设置任务通知值，如果任务已有通知值，则不覆盖。
+
+> 返回值
+
+- `pdPASS`：通知发送成功。
+- `pdFAIL`：通知发送失败。
+
+### xTaskNotifyWait
+
+> 函数原型
+
+```c
+BaseType_t xTaskNotifyWait(uint32_t ulBitsToClearOnEntry, // 进入时要清除的位
+                           uint32_t ulBitsToClearOnExit, // 退出时要清除的位
+                           uint32_t *pulNotificationValue, // 通知值
+                           TickType_t xTicksToWait); // 等待时间
+```
+
+> 函数简介
+
+`xTaskNotifyWait` 是一个用于等待任务通知的函数。调用 `xTaskNotifyWait` 函数后，任务将等待通知的到来。
+
+> 参数
+
+- `ulBitsToClearOnEntry`：进入时要清除的位。
+- `ulBitsToClearOnExit`：退出时要清除的位。
+- `pulNotificationValue`：通知值。
+- `xTicksToWait`：等待时间，即在通知未到来时等待的时间。如果通知未到来，任务将在等待时间内等待通知到来。如果等待时间为 0，则任务将立即返回。
+
+> 返回值
+
+- `pdPASS`：等待通知成功。
+- `pdFAIL`：等待通知失败。
+
+

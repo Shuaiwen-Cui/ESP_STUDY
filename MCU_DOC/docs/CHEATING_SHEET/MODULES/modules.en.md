@@ -71,3 +71,14 @@ Usage:
 ```c
 #include "freertos/queue.h"   
 ```
+
+### freertos/event_groups
+
+!!! info "Introduction"
+    The FreeRTOS event group management library is a module of FreeRTOS, which provides some event group management functions, such as event group creation, event group deletion, event group setting, event group clearing, etc. event_groups.h represents the header file of the event group management library. After introducing this header file, you can use the functions of the event group management library.
+
+Usage:
+
+```c
+#include "freertos/event_groups.h"   
+```
