@@ -1,13 +1,15 @@
 # HARDWARE
 
-![DNESP32S3M](DNESP32S3M.png){ width=500px }
+![DNESP32S3M](DNESP32S3M.png){width=800px}
 
-![DNESP32S3M-BACK](DNESP32S3M-BACK.png){ width=500px }
+![DNESP32S3M-BACK](DNESP32S3M-BACK.png){width=800px}
 
-!!! info
+![ESP32-S3](FUNCTIONAL_BLOCK_EN.png){width=800px}
+
+!!! info "DNESP32S3M"
     The hardware platform used in this document is the DNESP32S3M from Alientek， which is based on ESP32-S3, as shown in the figure above. It should be possible to migrate the relevant programs to other development boards, but adaptation should be made according to the actual situation.
 
-!!! info
+!!! info "DNESP32S3M Hardware Features"
     ESP32-S3 is a system on a chip that integrates the following features:
 
     - Wi-Fi (2.4 GHz band)
@@ -32,6 +34,9 @@
 
 !!! note
     To start programming, you need:
+
     - A computer with a USB port
+    
     - A USB cable
+    
     - A DNESP32S3M development board or other ESP32 development board

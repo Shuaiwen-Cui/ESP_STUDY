@@ -1,13 +1,15 @@
 # 硬件平台
 
-![DNESP32S3M](DNESP32S3M.png){ width=500px }
+![DNESP32S3M](DNESP32S3M.png){width=800px}
 
-![DNESP32S3M-BACK](DNESP32S3M-BACK.png){ width=500px }
+![DNESP32S3M-BACK](DNESP32S3M-BACK.png){width=800px}
 
-!!! info
+![ESP32-S3](FUNCTIONAL_BLOCK_CN.png){width=800px}
+
+!!! info "DNESP32S3M"
     本文档使用的硬件平台为正点原子的DNESP32S3M,基于ESP32-S3，如上图所示。相关程序迁移到其他开发板应该也是可以的，但是需要根据实际情况进行适配。
 
-!!! info
+!!! info "DNESP32S3M 硬件特性"
     ESP32-S3 SoC 芯片支持以下功能：
 
     - 2.4 GHz Wi-Fi
@@ -32,6 +34,9 @@
 
 !!! note
     开始编程前，您需要：
+
     - 一台带有 USB 端口的计算机
+
     - 一根 USB 数据线
+  
     - 一块 DNESP32S3M 开发板或其他 ESP32 开发板
