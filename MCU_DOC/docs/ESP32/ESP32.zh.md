@@ -11,6 +11,18 @@
 !!! note
     使用ESP-IDF有两种方式：**ESP-IDF命令提示符** 和 **基于GUI的IDE** ，如Visual Studio Code。后者是使用ESP-IDF最流行的方式。
 
+## 开发工具链
+
+| 工具链 | 描述 | 优势 | 劣势 |
+| --- | --- | --- | --- |
+| ESP_IDF✅ | Espressif IoT Development Framework | 功能丰富，文档完善 | 学习曲线陡 |
+| MICROPYTHON | Python for microcontrollers | 易学，开发迅速 | 资源有限 |
+| ARDUINO | 开源电子平台 | 易用，社区庞大 | 资源有限 |
+
+!!! note
+    对于快速原型设计，我们使用 MICROPYTHON；对于高性能应用，我们使用 ESP_IDF。
+
+
 ## 安装
 
 !!! note

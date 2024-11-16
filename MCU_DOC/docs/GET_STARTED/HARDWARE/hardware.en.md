@@ -6,6 +6,8 @@
 
 ![ESP32-S3](FUNCTIONAL_BLOCK_EN.png){width=800px}
 
+![ESP32-S3-MODULES](MODULES_EN.png){width=800px}
+
 !!! info "DNESP32S3M"
     The hardware platform used in this document is the DNESP32S3M from Alientek， which is based on ESP32-S3, as shown in the figure above. It should be possible to migrate the relevant programs to other development boards, but adaptation should be made according to the actual situation.
 
