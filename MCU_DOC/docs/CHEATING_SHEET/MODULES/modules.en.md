@@ -37,6 +37,19 @@ Usage:
 #include "esp_log.h"
 ```
 
+## TIMER MODULES
+
+### esp_timer
+
+!!! info "Introduction"
+    ESP_TIMER is the timer module of ESP-IDF, which provides some timer functions, such as esp_timer_create, esp_timer_start_once, etc. esp_timer.h represents the header file of the timer module. After introducing this header file, you can use the functions of the timer module.
+
+Usage:
+
+```c
+#include "esp_timer.h"
+```
+
 ## RTOS-FREERTOS MODULES
 
 ### freertos/FreeRTOS

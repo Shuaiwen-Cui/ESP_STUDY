@@ -6,7 +6,7 @@
 
 ![ESP32-S3](FUNCTIONAL_BLOCK_CN.png){width=800px}
 
-![ESP32-S3-MODULES](MODULES_CN.png){width=800px}
+![MODULES_CN](MODULES_CN.png){width=800px}
 
 !!! info "DNESP32S3M"
     本文档使用的硬件平台为正点原子的DNESP32S3M,基于ESP32-S3，如上图所示。相关程序迁移到其他开发板应该也是可以的，但是需要根据实际情况进行适配。

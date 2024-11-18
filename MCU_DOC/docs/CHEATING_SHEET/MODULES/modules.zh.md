@@ -38,6 +38,20 @@
 #include "esp_log.h"
 ```
 
+## 定时器模块
+
+### esp_timer
+
+!!! info "简介"
+    ESP_TIMER是ESP-IDF的定时器模块，提供了一些定时器函数，如esp_timer_create、esp_timer_start_once等。esp_timer.h 代表了定时器模块的头文件，引入该头文件后，就可以使用定时器模块的函数。
+
+用法：
+
+```c
+#include "esp_timer.h"
+```
+
+
 ## 实时操作系统-FREERTOS模块
 
 ### freertos/FreeRTOS

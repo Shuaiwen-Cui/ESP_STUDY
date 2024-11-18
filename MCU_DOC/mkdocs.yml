@@ -126,11 +126,12 @@ plugins:
             CHEATING SHEET: 速查表
             MODULES: 常用模块
             LOGS: 日志
+            MAIN CONTROL: 主控
+            TIMER: 定时器
             FREERTOS: FreeRTOS
             QUICK START: 快速入门
-
-
-
+            PERIPHERALS: 外设
+            
 # # Hooks
 # hooks:
 #   - material/overrides/hooks/shortcodes.py
@@ -272,8 +273,13 @@ nav:
       - MODULES: "CHEATING_SHEET/MODULES/modules.md"
       - FREERTOS: "CHEATING_SHEET/FREERTOS/freertos.md"
       - LOGS: "CHEATING_SHEET/LOGS/logs.md"
+  - MAIN CONTROL:
+      - MAIN CONTROL: "MAIN-CONTROL/main-control.md"
+      - TIMER: "MAIN-CONTROL/TIMER/timer.md"
   - FREERTOS:
       - QUICK START: "FREERTOS/quickstart.md"
+  - PERIPHERALS:
+      - PERIPHERALS: "PERIPHERALS/peripherals.md"
 
 
     
