@@ -50,6 +50,19 @@ Usage:
 #include "esp_timer.h"
 ```
 
+## RANDOM MODULES
+
+### esp_random
+
+!!! info "Introduction"
+    ESP_RANDOM is the random number module of ESP-IDF, which provides some random number functions, such as esp_random, esp_random_uniform, etc. esp_random.h represents the header file of the random number module. After introducing this header file, you can use the functions of the random number module.
+
+Usage:
+
+```c
+#include "esp_random.h"
+```
+
 ## RTOS-FREERTOS MODULES
 
 ### freertos/FreeRTOS

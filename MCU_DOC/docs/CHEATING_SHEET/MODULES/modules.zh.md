@@ -51,6 +51,18 @@
 #include "esp_timer.h"
 ```
 
+## 随机数模块
+
+### esp_random
+
+!!! info "简介"
+    ESP_RANDOM是ESP-IDF的随机数模块，提供了一些随机数函数，如esp_random、esp_random_uniform等。esp_random.h 代表了随机数模块的头文件，引入该头文件后，就可以使用随机数模块的函数。
+
+用法：
+
+```c
+#include "esp_random.h"
+```
 
 ## 实时操作系统-FREERTOS模块
 
