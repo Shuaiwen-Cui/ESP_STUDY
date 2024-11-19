@@ -148,6 +148,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/SPI/spi/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/MAIN-CONTROL/TF-CARD/tf-card/</loc>
+        <lastmod>2024-11-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MAIN-CONTROL/TF-CARD/tf-card/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/TF-CARD/tf-card/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/MAIN-CONTROL/TIMER/timer/</loc>
         <lastmod>2024-11-19</lastmod>
         <changefreq>daily</changefreq>
@@ -342,6 +349,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/SPI/spi/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MAIN-CONTROL/SPI/spi/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/MAIN-CONTROL/TF-CARD/tf-card/</loc>
+        <lastmod>2024-11-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/TF-CARD/tf-card/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MAIN-CONTROL/TF-CARD/tf-card/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/MAIN-CONTROL/TIMER/timer/</loc>
