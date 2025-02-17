@@ -23,6 +23,9 @@ cd helloworld
 
 ## Set the Development Board Type
 
+!!! tip "ESP32 Environment Issue"
+    Type in `get_idf` to call the ESP32 environment if you are not currently in the ESP32 environment. Note that, the use of `get_idf` is only available after you properly set up the alias in the SHELL as indicated in the last tutorial.
+
 If it is a general ESP32 development board, you can ignore this step, but if it is another development board, it is better to specify the development board type, such as esp32-s3:
 
 ```shell
