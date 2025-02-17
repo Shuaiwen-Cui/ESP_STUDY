@@ -56,6 +56,11 @@ idf.py menuconfig
 idf.py menuconfig
 ```
 
+!!! note "ESP32 配置体系"
+    ESP32项目中，通常我们会通过 `menuconfig` 命令来配置项目。`menuconfig` 命令会打开一个配置界面，你可以在这个界面中配置项目的各种选项，而这个配置界面是通过 `Kconfig` 文件生成的。我们在项目中的 `sdkconfig` 文件中保存了这些配置选项的值。
+    
+    简单来说，配置体系的逻辑关系是：`Kconfig` -> `menuconfig` -> `sdkconfig`, 我们通过`Kconfig`文件定义配置选项，通过`menuconfig`命令配置这些选项，然后通过`sdkconfig`文件保存这些配置选项的值。
+
 ## 创建组件
 
 > 命令原型
