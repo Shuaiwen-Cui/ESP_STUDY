@@ -122,8 +122,11 @@ plugins:
             HANDS-ON: 上手实践
             TEMPLATE: 项目模板
             TUTORIAL STUDY: 教程学习
+            MORNINGCORE: 晨芯教程
+            DURUOFU: 杜若甫教程
             HELLO WORLD: 你好，世界
             CHEATING SHEET: 速查表
+            COMMAND: 常用命令
             MODULES: 常用模块
             LOGS: 日志
             MAIN CONTROL: 主控
@@ -278,10 +281,11 @@ nav:
       - HANDS-ON: "GET_STARTED/HANDS-ON/hands-on.md"
       - TEMPLATE: "GET_STARTED/TEMPLATE/template.md"
   - TUTORIAL STUDY:
-      - "TUTORIAL_STUDY/morningcore.md"
-      - HELLO WORLD: "TUTORIAL_STUDY/01-helloworld/helloworld.md"
+      - MORNINGCORE: "TUTORIAL_STUDY/MORNINGCORE/morningcore.md"
+      - DURUOFU: "TUTORIAL_STUDY/DURUOFU/duruofu.md"
   - CHEATING SHEET:
       - "CHEATING_SHEET/cheating_sheet.md"
+      - COMMAND: "CHEATING_SHEET/COMMAND/command.md"
       - MODULES: "CHEATING_SHEET/MODULES/modules.md"
       - FREERTOS: "CHEATING_SHEET/FREERTOS/freertos.md"
       - LOGS: "CHEATING_SHEET/LOGS/logs.md"
