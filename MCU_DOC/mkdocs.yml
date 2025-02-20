@@ -275,43 +275,42 @@ nav:
   - ABOUT: 
       - "index.md"
   - ESP32: 
-      - ESP32: "ESP32/ESP32.md"
-      - DURUOFU: "ESP32/duruofu.md"
+      - "ESP32/ESP32.md"
   - GET STARTED:
       - HARDWARE: "GET_STARTED/HARDWARE/hardware.md"
       - ENVIRONMENT: "GET_STARTED/ENVIRONMENT/environment.md"
       - HANDS-ON: "GET_STARTED/HANDS-ON/hands-on.md"
       - TEMPLATE: "GET_STARTED/TEMPLATE/template.md"
   - TUTORIAL STUDY:
-      - MORNINGCORE: "TUTORIAL_STUDY/MORNINGCORE/morningcore.md"
       - DURUOFU: "TUTORIAL_STUDY/DURUOFU/duruofu.md"
-  - CHEATING SHEET:
-      - "CHEATING_SHEET/cheating_sheet.md"
-      - COMMAND: "CHEATING_SHEET/COMMAND/command.md"
-      - MODULES: "CHEATING_SHEET/MODULES/modules.md"
-      - FREERTOS: "CHEATING_SHEET/FREERTOS/freertos.md"
-      - LOGS: "CHEATING_SHEET/LOGS/logs.md"
-  - MAIN CONTROL:
-      - MAIN CONTROL: "MAIN-CONTROL/main-control.md"
-      - TIMER: "MAIN-CONTROL/TIMER/timer.md"
-      - RTC: "MAIN-CONTROL/RTC/rtc.md"
-      - SPI: "MAIN-CONTROL/SPI/spi.md"
-      - RNG: "MAIN-CONTROL/RNG/rng.md"
-      - TF-CARD: "MAIN-CONTROL/TF-CARD/tf-card.md"
-  - FREERTOS:
-      - QUICK START: "FREERTOS/quickstart.md"
-  - PERCEPTION:
-      - PERCEPTION: "PERCEPTION/perception.md"
-      - BUILT-IN THERMOMETER: "PERCEPTION/BUILT-IN-THERMOMETER/built-in-thermometer.md"
-  - COMMUNICATION:
-      - COMMUNICATION: "COMMUNICATION/communication.md"
-  - INTERFACING:
-      - LED: "INTERFACING/LED/led.md"
-      - RGB: "INTERFACING/RGB/rgb.md"
-      - KEY: 
-        - KEY: "INTERFACING/KEY/key.md"
-        - KEY-INTERRUPT: "INTERFACING/KEY/key-itr.md"
-      - LCD: "INTERFACING/LCD/lcd.md"
+      - MORNINGCORE: "TUTORIAL_STUDY/MORNINGCORE/morningcore.md"
+  # - CHEATING SHEET:
+  #     - "CHEATING_SHEET/cheating_sheet.md"
+  #     - COMMAND: "CHEATING_SHEET/COMMAND/command.md"
+  #     - MODULES: "CHEATING_SHEET/MODULES/modules.md"
+  #     - FREERTOS: "CHEATING_SHEET/FREERTOS/freertos.md"
+  #     - LOGS: "CHEATING_SHEET/LOGS/logs.md"
+  # - MAIN CONTROL:
+  #     - MAIN CONTROL: "MAIN-CONTROL/main-control.md"
+  #     - TIMER: "MAIN-CONTROL/TIMER/timer.md"
+  #     - RTC: "MAIN-CONTROL/RTC/rtc.md"
+  #     - SPI: "MAIN-CONTROL/SPI/spi.md"
+  #     - RNG: "MAIN-CONTROL/RNG/rng.md"
+  #     - TF-CARD: "MAIN-CONTROL/TF-CARD/tf-card.md"
+  # - FREERTOS:
+  #     - QUICK START: "FREERTOS/quickstart.md"
+  # - PERCEPTION:
+  #     - PERCEPTION: "PERCEPTION/perception.md"
+  #     - BUILT-IN THERMOMETER: "PERCEPTION/BUILT-IN-THERMOMETER/built-in-thermometer.md"
+  # - COMMUNICATION:
+  #     - COMMUNICATION: "COMMUNICATION/communication.md"
+  # - INTERFACING:
+  #     - LED: "INTERFACING/LED/led.md"
+  #     - RGB: "INTERFACING/RGB/rgb.md"
+  #     - KEY: 
+  #       - KEY: "INTERFACING/KEY/key.md"
+  #       - KEY-INTERRUPT: "INTERFACING/KEY/key-itr.md"
+  #     - LCD: "INTERFACING/LCD/lcd.md"
 
     
 # if there are sub nodes under a node, then there should not be a link right after the node. All the stuff should be placed under the node.
