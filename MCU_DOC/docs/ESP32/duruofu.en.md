@@ -53,11 +53,11 @@
 
 #### 4.2 STORAGE PERIPHERALS
 
-- [ ] 4.2.1 PARTITION TABLE
-- [ ] 4.2.2 NVS
-- [ ] 4.2.3 FATFS
-- [ ] 4.2.4 SPIFFS
-- [ ] 4.2.5 SD CARD
+- [x] 4.2.1 PARTITION TABLE
+- [x] 4.2.2 NVS
+- [x] 4.2.3 FATFS
+- [x] 4.2.4 SPIFFS
+- [x] 4.2.5 SD CARD
 
 ### C5 FreeRTOS ADVANCED
 
