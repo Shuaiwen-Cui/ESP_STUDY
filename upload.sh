@@ -18,6 +18,6 @@ git push -f https://github.com/Shuaiwen-Cui/ESP_STUDY.git main
 # git push -u origin main
 echo '--------push to GitHub successfully--------'
 
-# cd ./MCU_DOC/
-# mkdocs gh-deploy
+cd ./MCU_DOC/
+mkdocs gh-deploy
 # echo '--------deployed to Github Pages sucessfully--------'

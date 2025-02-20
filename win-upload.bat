@@ -17,8 +17,8 @@ git push -f https://github.com/Shuaiwen-Cui/ESP_STUDY.git main
 @REM git push -u origin main
 echo '--------push to GitHub successfully--------'
 
-@REM cd ./MCU_DOC/
-@REM mkdocs gh-deploy
+cd ./MCU_DOC/
+mkdocs gh-deploy
 @REM echo '--------deployed to Github Pages sucessfully--------'
 
 @REM git push -f <url> master

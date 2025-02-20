@@ -116,6 +116,7 @@ plugins:
           nav_translations: # note that all titles and subtitles in the navigation bar that need to be translated can be put here, but with no indentation
             ABOUT: 关于
             ESP32: ESP32
+            DURUOFU: 杜若甫
             GET STARTED: 入门
             HARDWARE: 硬件
             ENVIRONMENT: 环境配置
@@ -274,7 +275,8 @@ nav:
   - ABOUT: 
       - "index.md"
   - ESP32: 
-      - "ESP32/ESP32.md"
+      - ESP32: "ESP32/ESP32.md"
+      - DURUOFU: "ESP32/duruofu.md"
   - GET STARTED:
       - HARDWARE: "GET_STARTED/HARDWARE/hardware.md"
       - ENVIRONMENT: "GET_STARTED/ENVIRONMENT/environment.md"
