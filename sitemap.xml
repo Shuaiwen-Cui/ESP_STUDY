@@ -176,6 +176,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/TIMER/timer/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/MATH-DSP-AI/math-dsp-ai/</loc>
+        <lastmod>2025-02-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MATH-DSP-AI/math-dsp-ai/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MATH-DSP-AI/math-dsp-ai/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/PERCEPTION/perception/</loc>
         <lastmod>2025-02-21</lastmod>
         <changefreq>daily</changefreq>
@@ -398,6 +405,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/TIMER/timer/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MAIN-CONTROL/TIMER/timer/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/MATH-DSP-AI/math-dsp-ai/</loc>
+        <lastmod>2025-02-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MATH-DSP-AI/math-dsp-ai/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MATH-DSP-AI/math-dsp-ai/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/PERCEPTION/perception/</loc>
