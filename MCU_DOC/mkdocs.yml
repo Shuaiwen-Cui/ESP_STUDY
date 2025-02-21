@@ -128,6 +128,7 @@ plugins:
             FREERTOS: FreeRTOS
             QUICK START: 快速入门
             MULTITASK: 多任务管理
+            QUEUE: 队列
             CHEATING SHEET: 速查表
             COMMAND: 常用命令
             MODULES: 常用模块
@@ -297,6 +298,7 @@ nav:
   - FREERTOS:
       - QUICK START: "FREERTOS/quickstart.md"
       - MULTITASK: "FREERTOS/MULTITASK/multitask.md"
+      - QUEUE: "FREERTOS/QUEUE/queue.md"
 
 
 

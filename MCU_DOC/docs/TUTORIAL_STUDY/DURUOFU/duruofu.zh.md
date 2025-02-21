@@ -61,4 +61,14 @@
 
 ### C5 FreeRTOS 高级
 
+- [x] 5.1 FreeRTOS 队列
+- [ ] 5.2 FreeRTOS 信号量
+- [ ] 5.3 FreeRTOS 互斥量
+- [ ] 5.4 FreeRTOS 事件组
+- [ ] 5.5 FreeRTOS 软件定时器
+
 ### C6 WIFI
+
+- [ ] 6.1 WIFI 功能入门
+- [ ] 6.2 网络协议应用
+- [ ] 6.3 WIFI 配网技术
