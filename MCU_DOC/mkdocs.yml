@@ -129,6 +129,7 @@ plugins:
             QUICK START: 快速入门
             MULTITASK: 多任务管理
             QUEUE: 队列
+            MATH-DSP-AI: 数学、信号处理和人工智能
             CHEATING SHEET: 速查表
             COMMAND: 常用命令
             MODULES: 常用模块
@@ -299,7 +300,8 @@ nav:
       - QUICK START: "FREERTOS/quickstart.md"
       - MULTITASK: "FREERTOS/MULTITASK/multitask.md"
       - QUEUE: "FREERTOS/QUEUE/queue.md"
-
+  - MATH-DSP-AI:
+      - "MATH-DSP-AI/math-dsp-ai.md"
 
 
   # - PERCEPTION:
