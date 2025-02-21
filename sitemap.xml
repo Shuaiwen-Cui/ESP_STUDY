@@ -64,6 +64,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/MULTITASK/multitask/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/FREERTOS/QUEUE/queue/</loc>
+        <lastmod>2025-02-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/QUEUE/queue/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/QUEUE/queue/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/GET_STARTED/ENVIRONMENT/environment/</loc>
         <lastmod>2025-02-21</lastmod>
         <changefreq>daily</changefreq>
@@ -279,6 +286,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/MULTITASK/multitask/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/MULTITASK/multitask/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/FREERTOS/QUEUE/queue/</loc>
+        <lastmod>2025-02-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/QUEUE/queue/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/QUEUE/queue/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/GET_STARTED/ENVIRONMENT/environment/</loc>
