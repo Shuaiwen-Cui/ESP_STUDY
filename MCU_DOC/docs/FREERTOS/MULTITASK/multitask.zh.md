@@ -1,4 +1,7 @@
-# FREERTOS 多任务管理
+# FREERTOS 多任务管理 | 实现任务并行处理
+
+!!! note "参考出处"
+    本文档参考了DURUOFU的[ESP32-教程](https://github.com/DuRuofu/ESP32-Guide)。 
 
 注意：与原生 FreeRTOS 不同，在 ESP-IDF 中使用 FreeRTOS 的用户 \永远不应调用 `vTaskStartScheduler()` 和 `vTaskEndScheduler()`。相反，ESP-IDF 会自动启动 FreeRTOS。用户必须定义一个 `void app_main(void)` 函数作为用户应用程序的入口点，并在 ESP-IDF 启动时被自动调用。
 

@@ -1,4 +1,7 @@
-# QUEUE
+# QUEUE | EFFICIENT TASK COMMUNICATION
+
+!!! NOTE "References"
+    This document is based on the DURUOFU's ESP32-GUIDE. For more information, please refer to the original version: [DURUOFU ESP32-GUIDE](https://github.com/DuRuofu/ESP32-Guide).
 
 !!! tip
     The header file `#include "freertos/queue.h"` must be included wherever a queue is used.

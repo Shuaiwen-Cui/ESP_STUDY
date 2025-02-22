@@ -1,4 +1,7 @@
-# 队列
+# 队列 | 高效的任务间数据传输
+
+!!! note "参考出处"
+    本文档参考了DURUOFU的[ESP32-教程](https://github.com/DuRuofu/ESP32-Guide)。 
 
 !!! tip
     需要用到队列的地方要引用头文件 `#include "freertos/queue.h"`。

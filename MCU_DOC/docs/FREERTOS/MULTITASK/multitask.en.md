@@ -1,4 +1,7 @@
-# FREERTOS MULTITASK
+# FREERTOS MULTITASK MANAGEMENT | FOR PARALLEL TASK PROCESSING
+
+!!! NOTE "References"
+    This document is based on the DURUOFU's ESP32-GUIDE. For more information, please refer to the original version: [DURUOFU ESP32-GUIDE](https://github.com/DuRuofu/ESP32-Guide).
 
 Note: Unlike native FreeRTOS, users using FreeRTOS in ESP-IDF should \*never\* call `vTaskStartScheduler()` and `vTaskEndScheduler()`. Instead, ESP-IDF will start FreeRTOS automatically. Users must define a `void app_main(void)` function as the entry point of the user application, which will be called automatically when ESP-IDF starts.
 
