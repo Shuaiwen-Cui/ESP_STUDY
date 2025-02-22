@@ -123,3 +123,22 @@ When a task cannot run for some reason, it is called the blocked state. Tasks ma
 > Suspended
 
 Like a task in the blocked state, a task in the suspended state cannot enter the running state. However, unlike a task in the blocked state, a task in the suspended state will not be awakened until it is explicitly resumed. A task will only enter or exit the suspended state if it is explicitly suspended and resumed through API commands.
+
+## FreeRTOS Concepts Comparison
+
+The following is a concise comparison of **Queue**, **Semaphore**, **Mutex**, **Event Group**, and **Task Notification** in FreeRTOS:
+
+| Feature         | Queue              | Semaphore        | Mutex            | Event Group      | Task Notification |
+|-----------------|--------------------|------------------|------------------|------------------|------------------|
+| **Main Use**    | Data Transfer      | Synchronization/Resource Management | Shared Resource Protection | Multi-task Synchronization | Lightweight Synchronization |
+| **Data Transfer** | Supported         | Not Supported    | Not Supported    | Not Supported    | Supported (Notification Value) |
+| **Resource Usage** | High              | Medium           | Medium           | Medium           | Lowest           |
+| **Priority Inheritance** | Not Supported | Not Supported    | Supported        | Not Supported    | Not Supported    |
+| **Use Cases**   | Inter-task Message Passing | Task Synchronization | Shared Resource Protection | Complex Event Triggering | Lightweight Synchronization |
+
+### Key Differences
+- **Queue**: Suitable for data transfer.
+- **Semaphore**: Suitable for simple synchronization or resource counting.
+- **Mutex**: Suitable for protecting shared resources.
+- **Event Group**: Suitable for multi-task synchronization and complex event triggering.
+- **Task Notification**: Suitable for lightweight synchronization, most efficient.
