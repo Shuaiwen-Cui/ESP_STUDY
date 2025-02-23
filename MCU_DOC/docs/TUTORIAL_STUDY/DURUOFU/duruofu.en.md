@@ -71,4 +71,29 @@
 
 - [ ] 6.1 WIFI KICKSTART
 - [ ] 6.2 NETWORK PROTOCOL APPLICATION
-- [ ] 6.3 WIFI CONFIGURATION
+  - [ ] TCP 
+  - [ ] UDP 
+  - [ ] HTTP 
+  - [ ] WEBSOCKET 
+  - [ ] MQTT 
+  - [ ] ESP-NOW
+
+### C7 BLE
+
+- [ ] 7.1 BLE Basics
+- [ ] 7.2 BLE Development Environment
+- [ ] 7.3 BLE Classic Bluetooth Development
+
+### C8 GUI DEVELOPMENT
+
+- [ ] 8.1 LVGL Basics
+- [ ] 8.2 Common Components and Layouts
+- [ ] 8.3 GUI Project Development
+
+### C9 PRACTICAL TOPICS
+
+- [ ] 9.1 WIFI NETWORK CONFIGURATION
+- [ ] 9.2 Web Service Program
+- [ ] 9.3 OTA
+
+### C10 HANDS ON
