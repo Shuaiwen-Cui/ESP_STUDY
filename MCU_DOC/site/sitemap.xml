@@ -50,6 +50,20 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/COMMUNICATION/communication/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/COMMUNICATION/BLUETOOTH/bluetooth/</loc>
+        <lastmod>2025-02-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/COMMUNICATION/BLUETOOTH/bluetooth/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/COMMUNICATION/BLUETOOTH/bluetooth/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/COMMUNICATION/WIFI/BASICS/wifi/</loc>
+        <lastmod>2025-02-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/COMMUNICATION/WIFI/BASICS/wifi/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/COMMUNICATION/WIFI/BASICS/wifi/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/FREERTOS/quickstart/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
@@ -307,6 +321,20 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/COMMUNICATION/communication/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/COMMUNICATION/communication/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/COMMUNICATION/BLUETOOTH/bluetooth/</loc>
+        <lastmod>2025-02-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/COMMUNICATION/BLUETOOTH/bluetooth/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/COMMUNICATION/BLUETOOTH/bluetooth/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/COMMUNICATION/WIFI/BASICS/wifi/</loc>
+        <lastmod>2025-02-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/COMMUNICATION/WIFI/BASICS/wifi/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/COMMUNICATION/WIFI/BASICS/wifi/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/FREERTOS/quickstart/</loc>
