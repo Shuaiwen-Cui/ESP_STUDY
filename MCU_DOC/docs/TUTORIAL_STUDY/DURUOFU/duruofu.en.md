@@ -69,9 +69,9 @@
 
 ### C6 WIFI
 
-- [ ] 6.1 WIFI KICKSTART
-    - [ ] Wi-Fi Mode and Introduction
-    - [ ] Wi-Fi STA and AP Configuration
+- [x] 6.1 WIFI KICKSTART
+    - [x] Wi-Fi Mode and Introduction
+    - [x] Wi-Fi STA and AP Configuration
 - [ ] 6.2 NETWORK PROTOCOL APPLICATION
     - [ ] TCP 
     - [ ] UDP 

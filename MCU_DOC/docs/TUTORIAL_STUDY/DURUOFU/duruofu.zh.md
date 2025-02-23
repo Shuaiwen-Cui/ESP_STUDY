@@ -69,9 +69,9 @@
 
 ### C6 WIFI
 
-- [ ] 6.1 WIFI 功能入门
-    - [ ] Wifi模式与介绍
-    - [ ] Wi-Fi的STA与AP配置
+- [x] 6.1 WIFI 功能入门
+    - [x] Wifi模式与介绍
+    - [x] Wi-Fi的STA与AP配置
 - [ ] 6.2 网络协议应用
     - [ ] TCP 
     - [ ] UDP 

@@ -1,104 +1,152 @@
+#include <stdio.h>
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "freertos/event_groups.h"
+#include "esp_log.h"
+#include "nvs_flash.h"
+#include "mqtt_client.h"
+#include "simple_wifi_sta.h"
+
+static const char* TAG = "main";
+
+#define MQTT_ADDRESS    "mqtt://8.222.194.160"     //MQTT连接地址
+#define MQTT_PORT       1883                        //MQTT连接端口号
+#define MQTT_CLIENT     "CSW-ESP32-S3"              //Client ID（设备唯一，大家最好自行改一下）
+#define MQTT_USERNAME   "cshwstem"                     //MQTT用户名
+#define MQTT_PASSWORD   "Cshw0918#"                  //MQTT密码
+
+#define MQTT_PUBLIC_TOPIC      "/test/topic1"       //测试用的,推送消息主题
+#define MQTT_SUBSCRIBE_TOPIC    "/test/topic2"      //测试用的,需要订阅的主题
+
+//定义一个事件组，用于通知main函数WIFI连接成功
+#define WIFI_CONNECT_BIT     BIT0
+static EventGroupHandle_t   s_wifi_ev = NULL;
+
+//MQTT客户端操作句柄
+static esp_mqtt_client_handle_t     s_mqtt_client = NULL;
+
+//MQTT连接标志
+static bool   s_is_mqtt_connected = false;
+
 /**
- * @file main.c
- * @author SHUAIWEN CUI (SHUAIWEN001@e.ntu.edu.sg)
- * @brief 
- * @version 1.0
- * @date 2024-11-20
- * 
- * @copyright Copyright (c) 2024
- * 
+ * mqtt连接事件处理函数
+ * @param event 事件参数
+ * @return 无
  */
+static void aliot_mqtt_event_handler(void* event_handler_arg,
+                                        esp_event_base_t event_base,
+                                        int32_t event_id,
+                                        void* event_data)
+{
+    esp_mqtt_event_handle_t event = event_data;
+    esp_mqtt_client_handle_t client = event->client;
 
-/* DEPENDENCIES */
-// ESP
-#include "esp_system.h" // ESP32 System
-#include "nvs_flash.h"  // ESP32 NVS
-#include "esp_chip_info.h" // ESP32 Chip Info
-#include "esp_psram.h" // ESP32 PSRAM
-#include "esp_flash.h" // ESP32 Flash
-#include "esp_log.h" // ESP32 Logging
+    // your_context_t *context = event->context;
+    switch ((esp_mqtt_event_id_t)event_id) {
+        case MQTT_EVENT_CONNECTED:  //连接成功
+            ESP_LOGI(TAG, "mqtt connected");
+            s_is_mqtt_connected = true;
+            //连接成功后，订阅测试主题
+            esp_mqtt_client_subscribe_single(s_mqtt_client,MQTT_SUBSCRIBE_TOPIC,1);
+            break;
+        case MQTT_EVENT_DISCONNECTED:   //连接断开
+            ESP_LOGI(TAG, "mqtt disconnected");
+            s_is_mqtt_connected = false;
+            break;
+        case MQTT_EVENT_SUBSCRIBED:     //收到订阅消息ACK
+            ESP_LOGI(TAG, " mqtt subscribed ack, msg_id=%d", event->msg_id);
+            break;
+        case MQTT_EVENT_UNSUBSCRIBED:   //收到解订阅消息ACK
+            break;
+        case MQTT_EVENT_PUBLISHED:      //收到发布消息ACK
+            ESP_LOGI(TAG, "mqtt publish ack, msg_id=%d", event->msg_id);
+            break;
+        case MQTT_EVENT_DATA:
+            printf("TOPIC=%.*s\r\n", event->topic_len, event->topic);       //收到Pub消息直接打印出来
+            printf("DATA=%.*s\r\n", event->data_len, event->data);
+            break;
+        case MQTT_EVENT_ERROR:
+            ESP_LOGI(TAG, "MQTT_EVENT_ERROR");
+            break;
+        default:
+            break;
+    }
+}
 
-// BSP
-#include "led.h"
-#include "exit.h"
-#include "spi.h"
-#include "lcd.h"
-#include "tim.h"
-#include "esp_rtc.h"
-#include "spi_sdcard.h"
-#include "wifi.h"
 
-/**
- * @brief Entry point of the program
- * @param None
- * @retval None
- */
+/** 启动mqtt连接
+ * @param 无
+ * @return 无
+*/
+void mqtt_start(void)
+{
+    esp_mqtt_client_config_t mqtt_cfg = {0};
+    mqtt_cfg.broker.address.uri = MQTT_ADDRESS;
+    mqtt_cfg.broker.address.port = MQTT_PORT;
+    //Client ID
+    mqtt_cfg.credentials.client_id = MQTT_CLIENT;
+    //用户名
+    mqtt_cfg.credentials.username = MQTT_USERNAME;
+    //密码
+    mqtt_cfg.credentials.authentication.password = MQTT_PASSWORD;
+    ESP_LOGI(TAG,"mqtt connect->clientId:%s,username:%s,password:%s",mqtt_cfg.credentials.client_id,
+    mqtt_cfg.credentials.username,mqtt_cfg.credentials.authentication.password);
+    //设置mqtt配置，返回mqtt操作句柄
+    s_mqtt_client = esp_mqtt_client_init(&mqtt_cfg);
+    //注册mqtt事件回调函数
+    esp_mqtt_client_register_event(s_mqtt_client, ESP_EVENT_ANY_ID, aliot_mqtt_event_handler, s_mqtt_client);
+    //启动mqtt连接
+    esp_mqtt_client_start(s_mqtt_client);
+}
+
+/** wifi事件通知
+ * @param 无
+ * @return 无
+*/
+void wifi_event_handler(WIFI_EV_e ev)
+{
+    if(ev == WIFI_CONNECTED)
+    {
+        xEventGroupSetBits(s_wifi_ev,WIFI_CONNECT_BIT);
+    }
+}
+
 void app_main(void)
 {
-    esp_err_t ret;
-    uint32_t flash_size;
-    esp_chip_info_t chip_info;
-
-    // Initialize NVS
-    ret = nvs_flash_init();
-    if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND)
-    {
-        ESP_ERROR_CHECK(nvs_flash_erase()); // Erase if needed
-        ret = nvs_flash_init();
+    esp_err_t ret = nvs_flash_init();
+    if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND) {
+        //NVS出现错误，执行擦除
+        ESP_ERROR_CHECK(nvs_flash_erase());
+        //重新尝试初始化
+        ESP_ERROR_CHECK(nvs_flash_init());
     }
+    s_wifi_ev = xEventGroupCreate();
+    EventBits_t ev = 0;
 
-    // Get FLASH size
-    esp_flash_get_size(NULL, &flash_size);
-    esp_chip_info(&chip_info);
+    //初始化WIFI，传入回调函数，用于通知连接成功事件
+    wifi_sta_init(wifi_event_handler);
 
-    // Display CPU core count
-    printf("CPU Cores: %d\n", chip_info.cores);
-
-    // Display FLASH size
-    printf("Flash size: %ld MB flash\n", flash_size / (1024 * 1024));
-
-    // Display PSRAM size
-    printf("PSRAM size: %d bytes\n", esp_psram_get_size());
-
-    // BSP Initialization
-    led_init();
-    exit_init();
-    spi2_init();
-    lcd_init();
-
-    // spiffs_test();                                                  /* Run SPIFFS test */
-    while (sd_card_init())                               /* SD card not detected */
+    //一直监听WIFI连接事件，直到WiFi连接成功后，才启动MQTT连接
+    ev = xEventGroupWaitBits(s_wifi_ev,WIFI_CONNECT_BIT,pdTRUE,pdFALSE,portMAX_DELAY);
+    if(ev & WIFI_CONNECT_BIT)
     {
-        lcd_show_string(0, 0, 200, 16, 16, "SD Card Error!", RED);
-        vTaskDelay(500);
-        lcd_show_string(0, 20, 200, 16, 16, "Please Check!", RED);
-        vTaskDelay(500);
+        mqtt_start();
     }
-
-    // clean the screen
-    lcd_clear(WHITE);
-
-    lcd_show_string(0, 0, 200, 16, 16, "SD Initialized!", RED);
-
-    sd_card_test_filesystem();                                        /* Run SD card test */
-
-    lcd_show_string(0, 0, 200, 16, 16, "SD Tested CSW! ", RED);
-
-    // sd_card_unmount();
-
-    vTaskDelay(3000);
-
-    lcd_show_string(0, 0, lcd_self.width, 16, 16, "WiFi STA Test", RED);
-    wifi_sta_init();
-
-    // // tell user about to restart
-    // printf("Restarting in 3 seconds...\n");
-    // vTaskDelay(3000);
-    // esp_restart();
-
-    while (1)
+    static char mqtt_pub_buff[64];
+    int count = 0;
+    while(1)
     {
-        led_toggle();
-        vTaskDelay(1000);
+        
+        //延时2秒发布一条消息到/test/topic1主题
+        if(s_is_mqtt_connected)
+        {
+            snprintf(mqtt_pub_buff,64,"{\"count\":\"%d\"}",count);
+            esp_mqtt_client_publish(s_mqtt_client, MQTT_PUBLIC_TOPIC,
+                            mqtt_pub_buff, strlen(mqtt_pub_buff),1, 0);
+            count++;
+        }
+
+        vTaskDelay(pdMS_TO_TICKS(2000));
     }
+    return;
 }
