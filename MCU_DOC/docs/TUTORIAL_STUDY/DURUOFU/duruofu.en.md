@@ -77,7 +77,7 @@
     - [ ] UDP 
     - [ ] HTTP 
     - [ ] WEBSOCKET 
-    - [ ] MQTT 
+    - [x] MQTT 
     - [ ] ESP-NOW
 
 ### C7 BLE
