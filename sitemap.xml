@@ -1,549 +1,563 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>https://localhost:8000/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/CHEATING_SHEET/cheating_sheet/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/CHEATING_SHEET/cheating_sheet/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/cheating_sheet/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/cheating_sheet/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/CHEATING_SHEET/cheating_sheet/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/CHEATING_SHEET/cheating_sheet/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/CHEATING_SHEET/COMMAND/command/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/CHEATING_SHEET/COMMAND/command/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/COMMAND/command/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/COMMAND/command/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/CHEATING_SHEET/COMMAND/command/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/CHEATING_SHEET/COMMAND/command/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/CHEATING_SHEET/FREERTOS/freertos/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/CHEATING_SHEET/FREERTOS/freertos/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/FREERTOS/freertos/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/FREERTOS/freertos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/CHEATING_SHEET/FREERTOS/freertos/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/CHEATING_SHEET/FREERTOS/freertos/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/CHEATING_SHEET/LOGS/logs/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/CHEATING_SHEET/LOGS/logs/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/LOGS/logs/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/LOGS/logs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/CHEATING_SHEET/LOGS/logs/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/CHEATING_SHEET/LOGS/logs/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/CHEATING_SHEET/MODULES/modules/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/CHEATING_SHEET/MODULES/modules/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/MODULES/modules/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/MODULES/modules/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/CHEATING_SHEET/MODULES/modules/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/CHEATING_SHEET/MODULES/modules/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/COMMUNICATION/communication/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/COMMUNICATION/communication/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/COMMUNICATION/communication/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/COMMUNICATION/communication/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/COMMUNICATION/communication/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/COMMUNICATION/communication/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/COMMUNICATION/BLUETOOTH/bluetooth/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/COMMUNICATION/BLUETOOTH/bluetooth/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/COMMUNICATION/BLUETOOTH/bluetooth/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/COMMUNICATION/BLUETOOTH/bluetooth/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/COMMUNICATION/BLUETOOTH/bluetooth/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/COMMUNICATION/BLUETOOTH/bluetooth/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/COMMUNICATION/WIFI/BASICS/wifi/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/COMMUNICATION/WIFI/BASICS/wifi/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/COMMUNICATION/WIFI/BASICS/wifi/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/COMMUNICATION/WIFI/BASICS/wifi/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/COMMUNICATION/WIFI/BASICS/wifi/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/COMMUNICATION/WIFI/BASICS/wifi/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/FREERTOS/quickstart/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/COMMUNICATION/WIFI/MQTT/mqtt/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/quickstart/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/quickstart/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/COMMUNICATION/WIFI/MQTT/mqtt/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/COMMUNICATION/WIFI/MQTT/mqtt/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/FREERTOS/EVENT-GROUP/event-group/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/quickstart/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/EVENT-GROUP/event-group/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/EVENT-GROUP/event-group/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/quickstart/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/quickstart/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/FREERTOS/MULTITASK/multitask/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/EVENT-GROUP/event-group/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/MULTITASK/multitask/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/MULTITASK/multitask/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/EVENT-GROUP/event-group/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/EVENT-GROUP/event-group/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/FREERTOS/MUTEX/mutex/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/MULTITASK/multitask/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/MUTEX/mutex/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/MUTEX/mutex/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/MULTITASK/multitask/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/MULTITASK/multitask/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/FREERTOS/QUEUE/queue/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/MUTEX/mutex/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/QUEUE/queue/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/QUEUE/queue/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/MUTEX/mutex/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/MUTEX/mutex/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/FREERTOS/SEMAPHORE/semaphore/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/QUEUE/queue/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/SEMAPHORE/semaphore/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/SEMAPHORE/semaphore/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/QUEUE/queue/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/QUEUE/queue/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/FREERTOS/TASK-NOTIFICATION/task-notification/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/SEMAPHORE/semaphore/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/TASK-NOTIFICATION/task-notification/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/TASK-NOTIFICATION/task-notification/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/SEMAPHORE/semaphore/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/SEMAPHORE/semaphore/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/GET_STARTED/ENVIRONMENT/environment/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/TASK-NOTIFICATION/task-notification/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/ENVIRONMENT/environment/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/ENVIRONMENT/environment/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/TASK-NOTIFICATION/task-notification/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/TASK-NOTIFICATION/task-notification/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/GET_STARTED/HANDS-ON/hands-on/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/GET_STARTED/ENVIRONMENT/environment/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/HANDS-ON/hands-on/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/HANDS-ON/hands-on/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/GET_STARTED/ENVIRONMENT/environment/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/GET_STARTED/ENVIRONMENT/environment/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/GET_STARTED/HARDWARE/hardware/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/GET_STARTED/HANDS-ON/hands-on/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/HARDWARE/hardware/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/HARDWARE/hardware/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/GET_STARTED/HANDS-ON/hands-on/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/GET_STARTED/HANDS-ON/hands-on/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/GET_STARTED/TEMPLATE/template/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/GET_STARTED/HARDWARE/hardware/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/TEMPLATE/template/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/TEMPLATE/template/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/GET_STARTED/HARDWARE/hardware/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/GET_STARTED/HARDWARE/hardware/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/INTERFACING/KEY/key-itr/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/GET_STARTED/TEMPLATE/template/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/INTERFACING/KEY/key-itr/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/INTERFACING/KEY/key-itr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/GET_STARTED/TEMPLATE/template/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/GET_STARTED/TEMPLATE/template/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/INTERFACING/KEY/key/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/INTERFACING/KEY/key-itr/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/INTERFACING/KEY/key/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/INTERFACING/KEY/key/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/INTERFACING/KEY/key-itr/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/INTERFACING/KEY/key-itr/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/INTERFACING/LCD/lcd/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/INTERFACING/KEY/key/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/INTERFACING/LCD/lcd/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/INTERFACING/LCD/lcd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/INTERFACING/KEY/key/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/INTERFACING/KEY/key/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/INTERFACING/LED/led/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/INTERFACING/LCD/lcd/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/INTERFACING/LED/led/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/INTERFACING/LED/led/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/INTERFACING/LCD/lcd/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/INTERFACING/LCD/lcd/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/INTERFACING/RGB/rgb/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/INTERFACING/LED/led/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/INTERFACING/RGB/rgb/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/INTERFACING/RGB/rgb/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/INTERFACING/LED/led/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/INTERFACING/LED/led/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/MAIN-CONTROL/main-control/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/INTERFACING/RGB/rgb/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MAIN-CONTROL/main-control/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/main-control/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/INTERFACING/RGB/rgb/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/INTERFACING/RGB/rgb/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/MAIN-CONTROL/RNG/rng/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/main-control/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MAIN-CONTROL/RNG/rng/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/RNG/rng/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/main-control/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/main-control/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/MAIN-CONTROL/RTC/rtc/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/RNG/rng/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MAIN-CONTROL/RTC/rtc/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/RTC/rtc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/RNG/rng/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/RNG/rng/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/MAIN-CONTROL/SPI/spi/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/RTC/rtc/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MAIN-CONTROL/SPI/spi/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/SPI/spi/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/RTC/rtc/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/RTC/rtc/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/MAIN-CONTROL/TF-CARD/tf-card/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/SPI/spi/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MAIN-CONTROL/TF-CARD/tf-card/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/TF-CARD/tf-card/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/SPI/spi/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/SPI/spi/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/MAIN-CONTROL/TIMER/timer/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/TF-CARD/tf-card/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MAIN-CONTROL/TIMER/timer/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/TIMER/timer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/TF-CARD/tf-card/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/TF-CARD/tf-card/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/MATH-DSP-AI/math-dsp-ai/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/TIMER/timer/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MATH-DSP-AI/math-dsp-ai/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MATH-DSP-AI/math-dsp-ai/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/TIMER/timer/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/TIMER/timer/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/PERCEPTION/perception/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/MATH-DSP-AI/math-dsp-ai/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/PERCEPTION/perception/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/PERCEPTION/perception/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/MATH-DSP-AI/math-dsp-ai/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/MATH-DSP-AI/math-dsp-ai/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/PERCEPTION/BUILT-IN-THERMOMETER/built-in-thermometer/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/PERCEPTION/perception/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/PERCEPTION/BUILT-IN-THERMOMETER/built-in-thermometer/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/PERCEPTION/BUILT-IN-THERMOMETER/built-in-thermometer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/PERCEPTION/perception/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/PERCEPTION/perception/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/PERIPHERALS/peripherals/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/PERCEPTION/BUILT-IN-THERMOMETER/built-in-thermometer/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/PERIPHERALS/peripherals/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/PERIPHERALS/peripherals/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/PERCEPTION/BUILT-IN-THERMOMETER/built-in-thermometer/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/PERCEPTION/BUILT-IN-THERMOMETER/built-in-thermometer/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/TUTORIAL_STUDY/DURUOFU/duruofu/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/PERIPHERALS/peripherals/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/TUTORIAL_STUDY/DURUOFU/duruofu/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/TUTORIAL_STUDY/DURUOFU/duruofu/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/PERIPHERALS/peripherals/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/PERIPHERALS/peripherals/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/TUTORIAL_STUDY/MORNINGCORE/morningcore/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/TUTORIAL_STUDY/DURUOFU/duruofu/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/TUTORIAL_STUDY/MORNINGCORE/morningcore/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/TUTORIAL_STUDY/MORNINGCORE/morningcore/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/TUTORIAL_STUDY/DURUOFU/duruofu/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/TUTORIAL_STUDY/DURUOFU/duruofu/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/TUTORIAL_STUDY/MORNINGCORE/01-helloworld/helloworld/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/TUTORIAL_STUDY/MORNINGCORE/morningcore/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/TUTORIAL_STUDY/MORNINGCORE/01-helloworld/helloworld/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/TUTORIAL_STUDY/MORNINGCORE/01-helloworld/helloworld/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/TUTORIAL_STUDY/MORNINGCORE/morningcore/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/TUTORIAL_STUDY/MORNINGCORE/morningcore/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/blog/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/TUTORIAL_STUDY/MORNINGCORE/01-helloworld/helloworld/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/blog/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/blog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/TUTORIAL_STUDY/MORNINGCORE/01-helloworld/helloworld/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/TUTORIAL_STUDY/MORNINGCORE/01-helloworld/helloworld/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/blog/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/blog/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/blog/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/CHEATING_SHEET/cheating_sheet/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/cheating_sheet/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/cheating_sheet/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/CHEATING_SHEET/COMMAND/command/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/CHEATING_SHEET/cheating_sheet/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/COMMAND/command/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/COMMAND/command/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/CHEATING_SHEET/cheating_sheet/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/CHEATING_SHEET/cheating_sheet/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/CHEATING_SHEET/FREERTOS/freertos/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/CHEATING_SHEET/COMMAND/command/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/FREERTOS/freertos/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/FREERTOS/freertos/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/CHEATING_SHEET/COMMAND/command/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/CHEATING_SHEET/COMMAND/command/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/CHEATING_SHEET/LOGS/logs/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/CHEATING_SHEET/FREERTOS/freertos/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/LOGS/logs/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/LOGS/logs/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/CHEATING_SHEET/FREERTOS/freertos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/CHEATING_SHEET/FREERTOS/freertos/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/CHEATING_SHEET/MODULES/modules/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/CHEATING_SHEET/LOGS/logs/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CHEATING_SHEET/MODULES/modules/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CHEATING_SHEET/MODULES/modules/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/CHEATING_SHEET/LOGS/logs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/CHEATING_SHEET/LOGS/logs/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/COMMUNICATION/communication/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/CHEATING_SHEET/MODULES/modules/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/COMMUNICATION/communication/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/COMMUNICATION/communication/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/CHEATING_SHEET/MODULES/modules/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/CHEATING_SHEET/MODULES/modules/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/COMMUNICATION/BLUETOOTH/bluetooth/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/COMMUNICATION/communication/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/COMMUNICATION/BLUETOOTH/bluetooth/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/COMMUNICATION/BLUETOOTH/bluetooth/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/COMMUNICATION/communication/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/COMMUNICATION/communication/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/COMMUNICATION/WIFI/BASICS/wifi/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/COMMUNICATION/BLUETOOTH/bluetooth/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/COMMUNICATION/WIFI/BASICS/wifi/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/COMMUNICATION/WIFI/BASICS/wifi/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/COMMUNICATION/BLUETOOTH/bluetooth/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/COMMUNICATION/BLUETOOTH/bluetooth/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/FREERTOS/quickstart/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/COMMUNICATION/WIFI/BASICS/wifi/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/quickstart/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/quickstart/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/COMMUNICATION/WIFI/BASICS/wifi/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/COMMUNICATION/WIFI/BASICS/wifi/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/FREERTOS/EVENT-GROUP/event-group/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/COMMUNICATION/WIFI/MQTT/mqtt/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/EVENT-GROUP/event-group/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/EVENT-GROUP/event-group/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/COMMUNICATION/WIFI/MQTT/mqtt/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/COMMUNICATION/WIFI/MQTT/mqtt/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/FREERTOS/MULTITASK/multitask/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/quickstart/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/MULTITASK/multitask/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/MULTITASK/multitask/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/quickstart/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/quickstart/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/FREERTOS/MUTEX/mutex/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/EVENT-GROUP/event-group/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/MUTEX/mutex/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/MUTEX/mutex/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/EVENT-GROUP/event-group/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/EVENT-GROUP/event-group/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/FREERTOS/QUEUE/queue/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/MULTITASK/multitask/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/QUEUE/queue/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/QUEUE/queue/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/MULTITASK/multitask/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/MULTITASK/multitask/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/FREERTOS/SEMAPHORE/semaphore/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/MUTEX/mutex/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/SEMAPHORE/semaphore/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/SEMAPHORE/semaphore/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/MUTEX/mutex/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/MUTEX/mutex/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/FREERTOS/TASK-NOTIFICATION/task-notification/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/QUEUE/queue/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FREERTOS/TASK-NOTIFICATION/task-notification/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FREERTOS/TASK-NOTIFICATION/task-notification/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/QUEUE/queue/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/QUEUE/queue/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/GET_STARTED/ENVIRONMENT/environment/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/SEMAPHORE/semaphore/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/ENVIRONMENT/environment/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/ENVIRONMENT/environment/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/SEMAPHORE/semaphore/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/SEMAPHORE/semaphore/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/GET_STARTED/HANDS-ON/hands-on/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/TASK-NOTIFICATION/task-notification/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/HANDS-ON/hands-on/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/HANDS-ON/hands-on/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/FREERTOS/TASK-NOTIFICATION/task-notification/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/FREERTOS/TASK-NOTIFICATION/task-notification/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/GET_STARTED/HARDWARE/hardware/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/GET_STARTED/ENVIRONMENT/environment/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/HARDWARE/hardware/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/HARDWARE/hardware/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/GET_STARTED/ENVIRONMENT/environment/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/GET_STARTED/ENVIRONMENT/environment/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/GET_STARTED/TEMPLATE/template/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/GET_STARTED/HANDS-ON/hands-on/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/GET_STARTED/TEMPLATE/template/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/GET_STARTED/TEMPLATE/template/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/GET_STARTED/HANDS-ON/hands-on/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/GET_STARTED/HANDS-ON/hands-on/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/INTERFACING/KEY/key-itr/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/GET_STARTED/HARDWARE/hardware/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/INTERFACING/KEY/key-itr/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/INTERFACING/KEY/key-itr/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/GET_STARTED/HARDWARE/hardware/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/GET_STARTED/HARDWARE/hardware/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/INTERFACING/KEY/key/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/GET_STARTED/TEMPLATE/template/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/INTERFACING/KEY/key/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/INTERFACING/KEY/key/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/GET_STARTED/TEMPLATE/template/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/GET_STARTED/TEMPLATE/template/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/INTERFACING/LCD/lcd/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/INTERFACING/KEY/key-itr/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/INTERFACING/LCD/lcd/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/INTERFACING/LCD/lcd/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/INTERFACING/KEY/key-itr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/INTERFACING/KEY/key-itr/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/INTERFACING/LED/led/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/INTERFACING/KEY/key/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/INTERFACING/LED/led/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/INTERFACING/LED/led/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/INTERFACING/KEY/key/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/INTERFACING/KEY/key/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/INTERFACING/RGB/rgb/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/INTERFACING/LCD/lcd/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/INTERFACING/RGB/rgb/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/INTERFACING/RGB/rgb/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/INTERFACING/LCD/lcd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/INTERFACING/LCD/lcd/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/MAIN-CONTROL/main-control/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/INTERFACING/LED/led/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/main-control/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MAIN-CONTROL/main-control/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/INTERFACING/LED/led/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/INTERFACING/LED/led/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/MAIN-CONTROL/RNG/rng/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/INTERFACING/RGB/rgb/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/RNG/rng/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MAIN-CONTROL/RNG/rng/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/INTERFACING/RGB/rgb/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/INTERFACING/RGB/rgb/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/MAIN-CONTROL/RTC/rtc/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/main-control/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/RTC/rtc/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MAIN-CONTROL/RTC/rtc/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/main-control/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/main-control/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/MAIN-CONTROL/SPI/spi/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/RNG/rng/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/SPI/spi/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MAIN-CONTROL/SPI/spi/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/RNG/rng/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/RNG/rng/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/MAIN-CONTROL/TF-CARD/tf-card/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/RTC/rtc/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/TF-CARD/tf-card/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MAIN-CONTROL/TF-CARD/tf-card/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/RTC/rtc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/RTC/rtc/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/MAIN-CONTROL/TIMER/timer/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/SPI/spi/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MAIN-CONTROL/TIMER/timer/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MAIN-CONTROL/TIMER/timer/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/SPI/spi/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/SPI/spi/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/MATH-DSP-AI/math-dsp-ai/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/TF-CARD/tf-card/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MATH-DSP-AI/math-dsp-ai/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MATH-DSP-AI/math-dsp-ai/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/TF-CARD/tf-card/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/TF-CARD/tf-card/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/PERCEPTION/perception/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/TIMER/timer/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/PERCEPTION/perception/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/PERCEPTION/perception/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/MAIN-CONTROL/TIMER/timer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/MAIN-CONTROL/TIMER/timer/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/PERCEPTION/BUILT-IN-THERMOMETER/built-in-thermometer/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/MATH-DSP-AI/math-dsp-ai/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/PERCEPTION/BUILT-IN-THERMOMETER/built-in-thermometer/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/PERCEPTION/BUILT-IN-THERMOMETER/built-in-thermometer/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/MATH-DSP-AI/math-dsp-ai/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/MATH-DSP-AI/math-dsp-ai/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/PERIPHERALS/peripherals/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/PERCEPTION/perception/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/PERIPHERALS/peripherals/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/PERIPHERALS/peripherals/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/PERCEPTION/perception/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/PERCEPTION/perception/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/TUTORIAL_STUDY/DURUOFU/duruofu/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/PERCEPTION/BUILT-IN-THERMOMETER/built-in-thermometer/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/TUTORIAL_STUDY/DURUOFU/duruofu/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/TUTORIAL_STUDY/DURUOFU/duruofu/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/PERCEPTION/BUILT-IN-THERMOMETER/built-in-thermometer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/PERCEPTION/BUILT-IN-THERMOMETER/built-in-thermometer/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/TUTORIAL_STUDY/MORNINGCORE/morningcore/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/PERIPHERALS/peripherals/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/TUTORIAL_STUDY/MORNINGCORE/morningcore/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/TUTORIAL_STUDY/MORNINGCORE/morningcore/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/PERIPHERALS/peripherals/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/PERIPHERALS/peripherals/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/TUTORIAL_STUDY/MORNINGCORE/01-helloworld/helloworld/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/TUTORIAL_STUDY/DURUOFU/duruofu/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/TUTORIAL_STUDY/MORNINGCORE/01-helloworld/helloworld/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/TUTORIAL_STUDY/MORNINGCORE/01-helloworld/helloworld/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/TUTORIAL_STUDY/DURUOFU/duruofu/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/TUTORIAL_STUDY/DURUOFU/duruofu/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/blog/</loc>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/TUTORIAL_STUDY/MORNINGCORE/morningcore/</loc>
         <lastmod>2025-02-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/blog/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/blog/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/TUTORIAL_STUDY/MORNINGCORE/morningcore/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/TUTORIAL_STUDY/MORNINGCORE/morningcore/"/>
+    </url>
+    <url>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/TUTORIAL_STUDY/MORNINGCORE/01-helloworld/helloworld/</loc>
+        <lastmod>2025-02-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/TUTORIAL_STUDY/MORNINGCORE/01-helloworld/helloworld/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/TUTORIAL_STUDY/MORNINGCORE/01-helloworld/helloworld/"/>
+    </url>
+    <url>
+        <loc>https://shuaiwen-cui.github.io/ESP_STUDY/zh/blog/</loc>
+        <lastmod>2025-02-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/ESP_STUDY/zh/blog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/ESP_STUDY/blog/"/>
     </url>
 </urlset>
