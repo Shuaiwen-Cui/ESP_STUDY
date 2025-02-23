@@ -70,13 +70,15 @@
 ### C6 WIFI
 
 - [ ] 6.1 WIFI KICKSTART
+    - [ ] Wi-Fi Mode and Introduction
+    - [ ] Wi-Fi STA and AP Configuration
 - [ ] 6.2 NETWORK PROTOCOL APPLICATION
-  - [ ] TCP 
-  - [ ] UDP 
-  - [ ] HTTP 
-  - [ ] WEBSOCKET 
-  - [ ] MQTT 
-  - [ ] ESP-NOW
+    - [ ] TCP 
+    - [ ] UDP 
+    - [ ] HTTP 
+    - [ ] WEBSOCKET 
+    - [ ] MQTT 
+    - [ ] ESP-NOW
 
 ### C7 BLE
 

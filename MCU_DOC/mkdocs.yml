@@ -124,7 +124,10 @@ plugins:
             TUTORIAL STUDY: 教程学习
             MORNINGCORE: 晨芯教程
             DURUOFU: 杜若甫教程
-            HELLO WORLD: 你好，世界
+            COMMUNICATION: 通信
+            BLUETOOTH: 蓝牙
+            WIFI: WIFI
+            BASICS: 基础
             FREERTOS: FreeRTOS
             QUICK START: 快速入门
             MULTITASK: 多任务管理
@@ -300,6 +303,21 @@ nav:
   #     - SPI: "MAIN-CONTROL/SPI/spi.md"
   #     - RNG: "MAIN-CONTROL/RNG/rng.md"
   #     - TF-CARD: "MAIN-CONTROL/TF-CARD/tf-card.md"
+  - COMMUNICATION:
+      - COMMUNICATION: "COMMUNICATION/communication.md"
+      - BLUETOOTH: "COMMUNICATION/BLUETOOTH/bluetooth.md"
+      - WIFI: 
+          - BASICS: "COMMUNICATION/WIFI/BASICS/wifi.md"
+  # - PERCEPTION:
+  #     - PERCEPTION: "PERCEPTION/perception.md"
+  #     - BUILT-IN THERMOMETER: "PERCEPTION/BUILT-IN-THERMOMETER/built-in-thermometer.md"
+  # - INTERFACING:
+  #     - LED: "INTERFACING/LED/led.md"
+  #     - RGB: "INTERFACING/RGB/rgb.md"
+  #     - KEY: 
+  #       - KEY: "INTERFACING/KEY/key.md"
+  #       - KEY-INTERRUPT: "INTERFACING/KEY/key-itr.md"
+  #     - LCD: "INTERFACING/LCD/lcd.md"
   - FREERTOS:
       - QUICK START: "FREERTOS/quickstart.md"
       - MULTITASK: "FREERTOS/MULTITASK/multitask.md"
@@ -310,21 +328,6 @@ nav:
       - TASK NOTIFICATION: "FREERTOS/TASK-NOTIFICATION/task-notification.md"
   - MATH-DSP-AI:
       - "MATH-DSP-AI/math-dsp-ai.md"
-
-
-  # - PERCEPTION:
-  #     - PERCEPTION: "PERCEPTION/perception.md"
-  #     - BUILT-IN THERMOMETER: "PERCEPTION/BUILT-IN-THERMOMETER/built-in-thermometer.md"
-  # - COMMUNICATION:
-  #     - COMMUNICATION: "COMMUNICATION/communication.md"
-  # - INTERFACING:
-  #     - LED: "INTERFACING/LED/led.md"
-  #     - RGB: "INTERFACING/RGB/rgb.md"
-  #     - KEY: 
-  #       - KEY: "INTERFACING/KEY/key.md"
-  #       - KEY-INTERRUPT: "INTERFACING/KEY/key-itr.md"
-  #     - LCD: "INTERFACING/LCD/lcd.md"
-
     
 # if there are sub nodes under a node, then there should not be a link right after the node. All the stuff should be placed under the node.
 
