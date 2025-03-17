@@ -12,7 +12,7 @@
 #include "lcd.h"
 
 #define DEFAULT_SSID        "CSW@CEE"
-#define DEFAULT_PWD         "88888888"
+#define DEFAULT_PWD         "999999999"
 #define WIFI_CONNECTED_BIT  BIT0
 #define WIFI_FAIL_BIT       BIT1
 

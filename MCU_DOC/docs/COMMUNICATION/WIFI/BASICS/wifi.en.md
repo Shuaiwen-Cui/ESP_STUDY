@@ -177,6 +177,7 @@ esp_err_t esp_event_handler_instance_register(esp_event_base_t event_base,
 ```
 
 The parameters are as follows:
+
 - **event_base**: The base ID of the event for which the handler is being registered.
 - **event_id**: The ID of the event for which the handler is registered.
 - **event_handler**: The handler function that is called when the event is dispatched.

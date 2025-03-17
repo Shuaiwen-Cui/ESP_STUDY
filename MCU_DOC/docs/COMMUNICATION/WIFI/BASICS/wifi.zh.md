@@ -178,6 +178,7 @@ esp_err_t esp_event_handler_instance_register(esp_event_base_t event_base,
 ```
 
 参数如下：
+
 -  参数 event_base 是要为其注册处理程序的事件的基本ID。
 - 参数 event_id 是要注册处理程序的事件的ID。
 - 参数 event_handler 是当事件被分发时调用的处理函数。

@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "DNESP32S3-CORE",
-    "project_version":    "1bdb5989-dirty",
+    "project_version":    "b126f3ea-dirty",
     "project_path":       "/home/cshwstem/CSW/Development/ESP_STUDY/CODE/DURUOFU/WIFI/MQTT",
     "idf_path":           "/home/cshwstem/esp/esp-idf",
     "build_dir":          "/home/cshwstem/CSW/Development/ESP_STUDY/CODE/DURUOFU/WIFI/MQTT/build",

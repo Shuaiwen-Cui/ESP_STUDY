@@ -15,7 +15,7 @@
 
 //需要把这两个修改成你家WIFI，测试是否连接成功
 #define DEFAULT_WIFI_SSID           "CSW@CEE"
-#define DEFAULT_WIFI_PASSWORD       "88888888"
+#define DEFAULT_WIFI_PASSWORD       "999999999"
 
 static const char *TAG = "wifi";
 
