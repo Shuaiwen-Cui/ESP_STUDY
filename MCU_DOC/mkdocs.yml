@@ -307,9 +307,8 @@ nav:
   - COMMUNICATION:
       - COMMUNICATION: "COMMUNICATION/communication.md"
       - BLUETOOTH: "COMMUNICATION/BLUETOOTH/bluetooth.md"
-      - WIFI: 
-          - BASICS: "COMMUNICATION/WIFI/BASICS/wifi.md"
-          - MQTT: "COMMUNICATION/WIFI/MQTT/mqtt.md"
+      - WIFI: "COMMUNICATION/WIFI/wifi.md"
+      - MQTT: "COMMUNICATION/MQTT/mqtt.md"
   # - PERCEPTION:
   #     - PERCEPTION: "PERCEPTION/perception.md"
   #     - BUILT-IN THERMOMETER: "PERCEPTION/BUILT-IN-THERMOMETER/built-in-thermometer.md"
