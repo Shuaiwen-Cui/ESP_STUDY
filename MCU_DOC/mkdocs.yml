@@ -121,6 +121,7 @@ plugins:
             ENVIRONMENT: 环境配置
             HANDS-ON: 上手实践
             TEMPLATE: 项目模板
+            COMMON-COMMANDS: 常用命令
             TUTORIAL STUDY: 教程学习
             MORNINGCORE: 晨芯教程
             DURUOFU: 杜若甫教程
@@ -288,6 +289,7 @@ nav:
       - ENVIRONMENT: "GET_STARTED/ENVIRONMENT/environment.md"
       - HANDS-ON: "GET_STARTED/HANDS-ON/hands-on.md"
       - TEMPLATE: "GET_STARTED/TEMPLATE/template.md"
+      - COMMON-COMMANDS: "GET_STARTED/COMMON-COMMAND/common-command.md"
   - TUTORIAL STUDY:
       - DURUOFU: "TUTORIAL_STUDY/DURUOFU/duruofu.md"
       - MORNINGCORE: "TUTORIAL_STUDY/MORNINGCORE/morningcore.md"
