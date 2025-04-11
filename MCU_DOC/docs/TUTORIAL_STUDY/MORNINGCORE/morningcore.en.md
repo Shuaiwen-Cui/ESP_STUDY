@@ -20,3 +20,44 @@
     [:octicons-arrow-right-24: <a href="https://gitee.com/vi-iot/esp32-board.git" target="_blank"> Portal </a>](#)
 
 </div>
+
+- [x] EP01 Introduction
+- [x] EP02 ubuntu windows esp-idf
+- [x] EP03 ubuntu esp-idf supplement
+- [x] EP04 Program architecture and startup analysis
+- [x] EP05 Task Creation
+- [ ] EP06
+- [ ] EP07
+- [ ] EP08
+- [ ] EP09
+- [ ] EP10
+- [ ] EP11
+- [ ] EP12
+- [ ] EP13
+- [ ] EP14
+- [ ] EP15
+- [ ] EP16
+- [ ] EP17
+- [ ] EP18
+- [ ] EP19
+- [ ] EP20
+- [ ] EP21
+- [ ] EP22
+- [ ] EP23
+- [ ] EP24
+- [ ] EP25
+- [ ] EP26
+- [ ] EP27
+- [ ] EP28
+- [ ] EP29
+- [ ] EP30
+- [ ] EP31
+- [ ] EP32
+- [ ] EP33
+- [ ] EP34
+- [ ] EP35
+- [ ] EP36
+- [ ] EP37
+- [ ] EP38
+- [ ] EP39
+- [ ] EP40
