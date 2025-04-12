@@ -26,7 +26,7 @@
 - [x] EP03 ubuntu esp-idf supplement
 - [x] EP04 Program architecture and startup analysis
 - [x] EP05 Task Creation
-- [ ] EP06
+- [x] EP06 Queue
 - [ ] EP07
 - [ ] EP08
 - [ ] EP09
