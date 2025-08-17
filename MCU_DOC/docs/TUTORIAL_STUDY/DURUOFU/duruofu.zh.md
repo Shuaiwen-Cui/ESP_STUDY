@@ -72,13 +72,13 @@
 - [x] 6.1 WIFI 功能入门
     - [x] Wifi模式与介绍
     - [x] Wi-Fi的STA与AP配置
-- [ ] 6.2 网络协议应用
-    - [ ] TCP 
-    - [ ] UDP 
-    - [ ] HTTP 
-    - [ ] WEBSOCKET 
+- [x] 6.2 网络协议应用
+    - [x] TCP 
+    - [x] UDP 
+    - [x] HTTP 
+    - [x] WEBSOCKET 
     - [x] MQTT 
-    - [ ] ESP-NOW
+    - [x] ESP-NOW
 
 ### C7 BLE
 
