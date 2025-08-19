@@ -3,7 +3,7 @@
 ## 环境准备
 
 !!! info
-    我们使用 VSCode + ESP-IDF 进行开发。有关设置开发环境的详细信息可以在互联网上找到。我假设您已经设置好了开发环境。
+    我们使用 VSCode + ESP-IDF 进行开发。有关设置开发环境的详细信息可以在互联网上找到。我假设您已经设置好了开发环境。**注意下图中的配置方式等价于使用idf.py menuconfig。**
 
 ## 创建新项目
 
@@ -44,8 +44,9 @@ sample_proj/ # 项目根目录
 ![分区表设置](01-08-partition_table.png){ width=800px }
 详细信息稍后提供
 4. 'PSRAM' 配置。在搜索栏中输入 `psram` 并按 `Enter`。
+请首先勾选PSRAM前面的复选框，然后进行如下配置。注意如果背景颜色太深，可能无法看到复选框。
 ![PSRAM 配置](01-09-PSRAM.png){ width=800px }
-5. 更改 CPU 频率。在搜索栏中输入 `cpu` 并按 `Enter`。将 CPU 频率修改为 240 MHz。
+1. 更改 CPU 频率。在搜索栏中输入 `cpu` 并按 `Enter`。将 CPU 频率修改为 240 MHz。
 ![CPU 频率](01-10-CPU.png){ width=600px }
 1. 修改 FreeRTOS tick 时钟频率。在搜索栏中输入 `tick` 并按 `Enter`。将频率修改为 1000。
 ![TICK 时钟频率](01-11-FREERTOS_tick.png){ width=600px }

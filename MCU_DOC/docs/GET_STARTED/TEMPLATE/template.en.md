@@ -3,7 +3,7 @@
 ## ENVIRONMENT SETUP
 
 !!! info
-    We use VSCode + ESP-IDF for development. Details to setup the development environment can be found on the internet. I assume you have already set up the development environment.
+    We use VSCode + ESP-IDF for development. Details to setup the development environment can be found on the internet. I assume you have already set up the development environment. **Note that the configuration method in the following figure is equivalent to using idf.py menuconfig.**
 
 ## CREATE A NEW PROJECT
 
@@ -43,16 +43,17 @@ sample_proj/ # Project root directory
 ![PARTITION TABLE SETUP](01-08-partition_table.png){ width=800px }
 details to be provided later
 4. 'PSRAM' configuration. In the search bar, type `psram` and press `Enter`.
+First, check the checkbox in front of PSRAM, then configure as follows. Note that if the background color is too dark, you may not see the checkbox.
 ![PSRAM CONFIGURATION](01-09-PSRAM.png){ width=800px }
-5. Change the CPU frequency. In the search bar, type `cpu` and press `Enter`. Modify the CPU frequency to 240 MHz.
+1. Change the CPU frequency. In the search bar, type `cpu` and press `Enter`. Modify the CPU frequency to 240 MHz.
 ![CPU FREQUENCY](01-10-CPU.png){ width=600px }
-6. Modify the FreeRTOS tick clock frequency. In the search bar, type `tick` and press `Enter`. Modify the tick clock frequency to 1000 Hz.
+1. Modify the FreeRTOS tick clock frequency. In the search bar, type `tick` and press `Enter`. Modify the tick clock frequency to 1000 Hz.
 ![TICK CLOCK FREQUENCY](01-11-FREERTOS_tick.png){ width=600px }
-7. Modify the partition table. In the command palette, type `ESP-IDF: Open Partition Table Editor UI`.
+1. Modify the partition table. In the command palette, type `ESP-IDF: Open Partition Table Editor UI`.
 ![PARTITION TABLE](01-12-partition_table_edit.png){ width=500px }
-8. Modify the partition table as shown below.
+1. Modify the partition table as shown below.
 ![PARTITION TABLE EDITOR](01-13-partition_table_editor.png){ width=800px }
-9. Save the all the modifications.
+1. Save the all the modifications.
 
 By far, we have finished the project initialization. The configuration is now consistent with the hardware onboard resources. 
 
