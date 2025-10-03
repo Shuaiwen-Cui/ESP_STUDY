@@ -11,7 +11,10 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1K3HvzEEDj/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="hhttps://scncvufhvv9t.feishu.cn/wiki/Lk0Nw0kN3iZVAfkNOIBcIWIVnm9" target="_blank"> 文档 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1K3HvzEEDj/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 视频 </a>](#)
+
 
 -   :fontawesome-brands-square-github:{ .lg .middle } __esp32-board__
 
@@ -19,7 +22,10 @@
 
     Example repository
 
-    [:octicons-arrow-right-24: <a href="https://gitee.com/vi-iot/esp32-board.git" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://gitee.com/vi-iot/esp32-board.git" target="_blank"> esp32 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="hhttps://gitee.com/vi-iot/esp32s3-board.git" target="_blank"> esp32s3 </a>](#)
+
 
 </div>
 

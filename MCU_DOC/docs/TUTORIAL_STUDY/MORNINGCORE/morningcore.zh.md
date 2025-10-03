@@ -11,7 +11,10 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1K3HvzEEDj/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="hhttps://scncvufhvv9t.feishu.cn/wiki/Lk0Nw0kN3iZVAfkNOIBcIWIVnm9" target="_blank"> 文档 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1K3HvzEEDj/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 视频 </a>](#)
+
 
 -   :fontawesome-brands-square-github:{ .lg .middle } __esp32-board__
 
@@ -19,7 +22,9 @@
 
     例程仓库
 
-    [:octicons-arrow-right-24: <a href="https://gitee.com/vi-iot/esp32-board.git" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://gitee.com/vi-iot/esp32-board.git" target="_blank"> esp32 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="hhttps://gitee.com/vi-iot/esp32s3-board.git" target="_blank"> esp32s3 </a>](#)
 
 </div>
 
@@ -27,4 +32,19 @@
 
 - [x] 1.0 ESP-IDF教程视频和套件介绍
 - [x] 1.1 【基础篇】开发环境搭建
-- [ ] 1.2 【基础篇】第一个程序的编写、编译、烧录和运行
+- [x] 1.2 【基础篇】第一个程序的编写、编译、烧录和运行
+- [x] 1.3 【基础篇】工程目录分析
+- [x] 1.4 【基础篇】存储分布分析
+- [ ] 1.5 【基础篇】程序分区表和启动介绍
+
+
+
+
+
+
+
+
+
+
+
+
