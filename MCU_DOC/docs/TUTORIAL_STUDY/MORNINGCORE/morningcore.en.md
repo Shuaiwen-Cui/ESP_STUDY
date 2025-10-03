@@ -30,3 +30,12 @@
 </div>
 
 ## Progress
+
+- [x] 1.0 ESP-IDF Tutorial Video and Kit Introduction
+- [x] 1.1 【Basics】Development Environment Setup
+- [x] 1.2 【Basics】Writing, Compiling, Flashing, and Running the First Program
+- [x] 1.3 【Basics】Project Directory Analysis
+- [x] 1.4 【Basics】Storage Distribution Analysis
+- [x] 1.5 【Basics】Program Partition Table and Boot Introduction
+- [x] 1.6 【Basics】C Language Knowledge Review
+- [x] 1.7 【Basics】Components and Component Manager
