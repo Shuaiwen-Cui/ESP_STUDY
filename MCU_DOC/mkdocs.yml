@@ -125,6 +125,7 @@ plugins:
             TUTORIAL STUDY: 教程学习
             MORNINGCORE: 晨芯教程
             DURUOFU: 杜若甫教程
+            LICHUANG: 立创教程
             COMMUNICATION: 通信
             BLUETOOTH: 蓝牙
             WIFI: WIFI
@@ -293,6 +294,7 @@ nav:
   - TUTORIAL STUDY:
       - DURUOFU: "TUTORIAL_STUDY/DURUOFU/duruofu.md"
       - MORNINGCORE: "TUTORIAL_STUDY/MORNINGCORE/morningcore.md"
+      - LICHUANG: "TUTORIAL_STUDY/LICHUANG/lichuang.md"
   # - CHEATING SHEET:
   #     - "CHEATING_SHEET/cheating_sheet.md"
   #     - COMMAND: "CHEATING_SHEET/COMMAND/command.md"
