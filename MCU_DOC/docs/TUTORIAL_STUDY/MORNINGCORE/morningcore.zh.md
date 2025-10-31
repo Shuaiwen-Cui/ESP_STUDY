@@ -11,7 +11,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="hhttps://scncvufhvv9t.feishu.cn/wiki/Lk0Nw0kN3iZVAfkNOIBcIWIVnm9" target="_blank"> 文档 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://scncvufhvv9t.feishu.cn/wiki/Lk0Nw0kN3iZVAfkNOIBcIWIVnm9" target="_blank"> 文档 </a>](#)
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1K3HvzEEDj/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 视频 </a>](#)
 
@@ -38,6 +38,9 @@
 - [x] 1.5 【基础篇】程序分区表和启动介绍
 - [x] 1.6 【基础篇】C语言知识回顾
 - [x] 1.7 【基础篇】组件和组件管理器
+- [x] 2.0 【外设篇】点亮一个LED
+- [x] 2.1 【外设篇】I2C驱动编写
+- [x] 2.2 【外设篇】XL9555驱动
 
 
 

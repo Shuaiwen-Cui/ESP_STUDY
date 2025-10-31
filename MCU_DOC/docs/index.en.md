@@ -68,45 +68,8 @@ This project is for ESP32 study and practice.
 
 ### Video Tutorials
 
-<div class="grid cards" markdown>
-
--   :fontawesome-brands-bilibili:{ .lg .middle } __【Espressif Tutorial】| Introduction to ESP-IDF IoT Development Framework 🎯🏆✅__
-
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1tY4y1L7HV/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Link </a>](#)
-
--   :fontawesome-brands-bilibili:{ .lg .middle } __【Espressif Tutorial】| Espressif AIoT Development Resources and Application Guide 🎯🏆✅__
-
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1uY411N7ns/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Link </a>](#)
-
--   :fontawesome-brands-bilibili:{ .lg .middle } __【Espressif Tutorial】| AIoT Programming with ESP32-S3 🎯🏆✅__
-
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Jr4y1E79s/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Link </a>](#)
-
-</div>
-
-<iframe src="http://www.cuishuaiwen.com:7500/DEV/ESP32/OFFICIAL/briefing.pdf" width="100%" height="600px"></iframe> 
-
-## Third-Party Tutorials
 
 <div class="grid cards" markdown>
-
--   :fontawesome-brands-bilibili:{ .lg .middle } __【2024 Latest ESP32 Tutorial (Based on ESP-IDF)】Entry-Level ESP32 Development Course - Updating with Subtitles 🎯🏆__
-
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1eRg7exEcT/?spm_id_from=333.788.recommend_more_video.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Link </a>](#)
-
--   :fontawesome-brands-bilibili:{ .lg .middle } __Binary Lone Wolf ESP-IDF Tutorial 🎯🏆__
-
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1hM411k7zz/?spm_id_from=333.999.0.0" target="_blank"> Link </a>](#)
 
 -   :material-file:{ .lg .middle } __DURUOFU ESP32-GUIDE 🎯🏆__
 
@@ -116,14 +79,33 @@ This project is for ESP32 study and practice.
 
     [:octicons-arrow-right-24: <a href="https://www.duruofu.top/2024/01/30/4.%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/MCU/ESP32/00.%E7%9B%AE%E5%BD%95/ESP32%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/" target="_blank"> Old Version </a>](#)
 
--   :fontawesome-brands-youtube:{ .lg .middle} __LEARNEPS32 🎯🏆__
+-   :material-file:{ .lg .middle } __CHENXIN IOT 🎯🏆__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://learnesp32.com/videos/course-introduction/course-introduction" target="_blank"> Link </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1K3HvzEEDj/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> New Version </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1eRg7exEcT/?spm_id_from=333.788.recommend_more_video.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Old Version </a>](#)
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __Lonely Binary ESP-IDF Tutorial 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1hM411k7zz/?spm_id_from=333.999.0.0" target="_blank"> Portal </a>](#)
+
+-   :fontawesome-brands-youtube:{ .lg .middle} __MCU AI__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/635929440/lists/4184155?type=series" target="_blank"> Portal </a>](#)
+
+<!-- -   :fontawesome-brands-youtube:{ .lg .middle} __LEARNEPS32 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://learnesp32.com/videos/course-introduction/course-introduction" target="_blank"> Portal </a>](#) -->
 
 </div>
-
 ## FreeRTOS
 
 Since ESP-IDF is based on FreeRTOS, learning FreeRTOS is essential for understanding ESP-IDF.

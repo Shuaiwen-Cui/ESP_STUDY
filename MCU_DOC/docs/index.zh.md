@@ -73,45 +73,7 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __【乐鑫教程】| 乐鑫物联网开发框架 ESP-IDF 开发入门 🎯🏆✅__
-
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1tY4y1L7HV/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
-
--   :fontawesome-brands-bilibili:{ .lg .middle } __【乐鑫教程】| 乐鑫 AIoT 开发资源与应用讲解 🎯🏆✅__
-
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1uY411N7ns/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
-
--   :fontawesome-brands-bilibili:{ .lg .middle } __【乐鑫教程】| 基于乐鑫 ESP32-S3 的 AIoT 编程实战 🎯🏆✅__
-
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Jr4y1E79s/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
-
-</div>
-
-<iframe src="http://www.cuishuaiwen.com:7500/DEV/ESP32/OFFICIAL/briefing.pdf" width="100%" height="600px"></iframe> 
-
-## 第三方教程
-
-<div class="grid cards" markdown>
-
--   :fontawesome-brands-bilibili:{ .lg .middle } __【2024最新版 ESP32教程（基于ESP-IDF）】ESP32入门级开发课程 更新中 中文字幕 🎯🏆__
-
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1eRg7exEcT/?spm_id_from=333.788.recommend_more_video.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
-
--   :fontawesome-brands-bilibili:{ .lg .middle } __孤独的二进制 ESP-IDF 教程 🎯🏆__
-
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1hM411k7zz/?spm_id_from=333.999.0.0" target="_blank"> 传送门 </a>](#)
-
--   :material-file:{ .lg .middle } __DURUOFU ESP32-GUIDE 🎯🏆__
+-   :material-file:{ .lg .middle } __DURUOFU ESP32-教程 🎯🏆__
 
     ---
 
@@ -119,11 +81,31 @@
 
     [:octicons-arrow-right-24: <a href="https://www.duruofu.top/2024/01/30/4.%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/MCU/ESP32/00.%E7%9B%AE%E5%BD%95/ESP32%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/" target="_blank"> 旧版 </a>](#)
 
--   :fontawesome-brands-youtube:{ .lg .middle} __LEARNEPS32 🎯🏆__
+-   :material-file:{ .lg .middle } __宸芯IOT 🎯🏆__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://learnesp32.com/videos/course-introduction/course-introduction" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1K3HvzEEDj/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 新版 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1eRg7exEcT/?spm_id_from=333.788.recommend_more_video.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 旧版 </a>](#)
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __孤独的二进制 ESP-IDF 教程 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1hM411k7zz/?spm_id_from=333.999.0.0" target="_blank"> 传送门 </a>](#)
+
+-   :fontawesome-brands-youtube:{ .lg .middle} __MCU AI__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/635929440/lists/4184155?type=series" target="_blank"> 传送门 </a>](#)
+
+<!-- -   :fontawesome-brands-youtube:{ .lg .middle} __LEARNEPS32 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://learnesp32.com/videos/course-introduction/course-introduction" target="_blank"> 传送门 </a>](#) -->
 
 </div>
 

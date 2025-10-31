@@ -11,7 +11,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="hhttps://scncvufhvv9t.feishu.cn/wiki/Lk0Nw0kN3iZVAfkNOIBcIWIVnm9" target="_blank"> 文档 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://scncvufhvv9t.feishu.cn/wiki/Lk0Nw0kN3iZVAfkNOIBcIWIVnm9" target="_blank"> 文档 </a>](#)
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1K3HvzEEDj/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 视频 </a>](#)
 
@@ -39,3 +39,6 @@
 - [x] 1.5 【Basics】Program Partition Table and Boot Introduction
 - [x] 1.6 【Basics】C Language Knowledge Review
 - [x] 1.7 【Basics】Components and Component Manager
+- [x] 2.0 【Peripherals】Lighting up an LED
+- [x] 2.1 【Peripherals】I2C Driver Development
+- [x] 2.2 【Peripherals】XL9555 Driver
