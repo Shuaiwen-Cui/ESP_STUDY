@@ -42,3 +42,5 @@
 - [x] 2.0 【Peripherals】Lighting up an LED
 - [x] 2.1 【Peripherals】I2C Driver Development
 - [x] 2.2 【Peripherals】XL9555 Driver
+- [x] 2.3 【Peripherals】Key Logic Design
+- [x] 2.4 【Peripherals】Key Logic Implementation
