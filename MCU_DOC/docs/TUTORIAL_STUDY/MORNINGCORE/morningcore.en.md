@@ -44,3 +44,8 @@
 - [x] 2.2 【Peripherals】XL9555 Driver
 - [x] 2.3 【Peripherals】Key Logic Design
 - [x] 2.4 【Peripherals】Key Logic Implementation
+- [x] 3.1 【WIFI】Simple Implementation of WIFI Connection
+- [ ] 3.2 【AP Configuration】Implementation of AP Mode and Scanning
+- [ ] 3.3 【AP Configuration】Introduction to HTTP and WEBSOCKET Protocols
+- [ ] 3.4 【AP Configuration】Server Code Implementation
+- [ ] 3.5 【AP Configuration】Data Interaction and Implementation
