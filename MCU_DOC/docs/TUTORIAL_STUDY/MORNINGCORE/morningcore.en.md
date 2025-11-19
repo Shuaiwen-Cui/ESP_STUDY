@@ -49,3 +49,9 @@
 - [x] 3.3 【AP Configuration】Introduction to HTTP and WEBSOCKET Protocols
 - [x] 3.4 【AP Configuration】Server Code Implementation
 - [x] 3.5 【AP Configuration】Data Interaction and Implementation
+- [x] 4.0 【OneNet】Introduction
+- [x] 4.1 【OneNet】MQTT Connection to OneNet Platform
+- [x] 4.2 【OneNet】Data Interaction of Thing Model
+- [x] 4.3 【OneNet】ESP32S3 and OTA
+- [x] 4.4 【OneNet】OTA Process
+- [x] 4.5 【OneNet】Complete OTA Implementation

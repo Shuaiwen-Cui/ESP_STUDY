@@ -48,6 +48,12 @@
 - [x] 3.3 【AP配网】HTTP和WEBSOCKET协议介绍
 - [x] 3.4 【AP配网】服务器代码实现
 - [x] 3.5 【AP配网】数据交互和实现
+- [x] 4.0 【OneNet】介绍
+- [x] 4.1 【OneNet】mqtt连接OneNet平台
+- [x] 4.2 【OneNet】物模型数据交互
+- [x] 4.3 【OneNet】ESP32S3与OTA
+- [x] 4.4 【OneNet】OTA流程
+- [x] 4.5 【OneNet】完整OTA实现
 
 
 
