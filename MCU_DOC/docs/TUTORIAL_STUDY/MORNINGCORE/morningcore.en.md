@@ -56,6 +56,10 @@
 - [x] 4.4 【OneNet】OTA Process
 - [x] 4.5 【OneNet】Complete OTA Implementation
 - [x] 5.0 【Audio Development】I2S Bus Introduction
-- [ ] 5.1 【Audio Development】PCM and PDM Introduction
-- [ ] 5.2 【Audio Development】Microphone and Speaker Driver Development
-- [ ] 5.3 【Audio Development】Recording and Playback Experiment
+- [x] 5.1 【Audio Development】PCM and PDM Introduction
+- [x] 5.2 【Audio Development】Microphone and Speaker Driver Development
+- [x] 5.3 【Audio Development】Recording and Playback Experiment
+- [x] 6.0 【XiaoZhi AI】XiaoZhi AI Project Analysis
+- [x] 6.1 【XiaoZhi AI】XiaoZhi AI Code Porting
+- [x] 6.2 【XiaoZhi AI】Communication Framework Explanation
+- [x] 6.3 【XiaoZhi AI】MCP Protocol Application
