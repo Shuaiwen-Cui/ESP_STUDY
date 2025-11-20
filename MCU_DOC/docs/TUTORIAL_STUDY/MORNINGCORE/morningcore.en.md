@@ -55,3 +55,7 @@
 - [x] 4.3 【OneNet】ESP32S3 and OTA
 - [x] 4.4 【OneNet】OTA Process
 - [x] 4.5 【OneNet】Complete OTA Implementation
+- [x] 5.0 【Audio Development】I2S Bus Introduction
+- [ ] 5.1 【Audio Development】PCM and PDM Introduction
+- [ ] 5.2 【Audio Development】Microphone and Speaker Driver Development
+- [ ] 5.3 【Audio Development】Recording and Playback Experiment
